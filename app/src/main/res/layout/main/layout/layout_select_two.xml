@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chs_select_mcu_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:src="@drawable/chs_model" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/space_10"
+                android:text="@string/selecu_muc"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/space_20" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.5"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/id_ly_mcu_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+<!--                    <Button-->
+<!--                        android:id="@+id/id_80ch"-->
+<!--                        android:layout_width="@dimen/space_250"-->
+<!--                        android:layout_height="@dimen/space_50"-->
+<!--                        android:textAllCaps="false"-->
+<!--                        android:layout_marginTop="@dimen/space_20"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:layout_marginBottom="@dimen/space_20"-->
+<!--                        android:textSize="@dimen/space_16"-->
+<!--                        android:text="@string/eighty_ach"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:background="@drawable/mcu_select_bg"-->
+<!--                        android:gravity="center"-->
+<!--                        />-->
+<!--                    <Button-->
+<!--                        android:id="@+id/id_100ch"-->
+<!--                        android:layout_width="@dimen/space_250"-->
+<!--                        android:layout_height="@dimen/space_50"-->
+<!--                        android:textAllCaps="false"-->
+<!--                        android:layout_marginTop="@dimen/space_20"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:layout_marginBottom="@dimen/space_20"-->
+<!--                        android:textSize="@dimen/space_16"-->
+<!--                        android:text="@string/hundred_ach"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:background="@drawable/mcu_select_bg"-->
+<!--                        android:gravity="center"-->
+<!--                        />-->
+<!--                    <Button-->
+<!--                        android:id="@+id/id_101ch"-->
+<!--                        android:layout_width="@dimen/space_250"-->
+<!--                        android:layout_height="@dimen/space_50"-->
+<!--                        android:textAllCaps="false"-->
+<!--                        android:layout_marginTop="@dimen/space_20"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:layout_marginBottom="@dimen/space_20"-->
+<!--                        android:textSize="@dimen/space_16"-->
+<!--                        android:text="@string/hundredone_ach"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:background="@drawable/mcu_select_bg"-->
+<!--                        android:gravity="center"-->
+<!--                        />-->
+
+<!--                    <Button-->
+<!--                        android:id="@+id/id_300ch"-->
+<!--                        android:layout_width="@dimen/space_250"-->
+<!--                        android:layout_height="@dimen/space_50"-->
+<!--                        android:textAllCaps="false"-->
+<!--                        android:layout_marginTop="@dimen/space_20"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:layout_marginBottom="@dimen/space_20"-->
+<!--                        android:textSize="@dimen/space_16"-->
+<!--                        android:text="@string/threehundred_ach"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:background="@drawable/mcu_select_bg"-->
+<!--                        android:gravity="center"-->
+<!--                        />-->
+<!--                    <Button-->
+<!--                        android:id="@+id/id_500ch"-->
+<!--                        android:layout_width="@dimen/space_250"-->
+<!--                        android:layout_height="@dimen/space_50"-->
+<!--                        android:textAllCaps="false"-->
+<!--                        android:layout_marginTop="@dimen/space_20"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:layout_marginBottom="@dimen/space_20"-->
+<!--                        android:textSize="@dimen/space_16"-->
+<!--                        android:text="@string/fivehundred_ach"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:background="@drawable/mcu_select_bg"-->
+<!--                        android:gravity="center"-->
+<!--                        />-->
+
+<!--                    <Button-->
+<!--                        android:id="@+id/id_501ch"-->
+<!--                        android:layout_width="@dimen/space_250"-->
+<!--                        android:layout_height="@dimen/space_50"-->
+<!--                        android:textAllCaps="false"-->
+<!--                        android:layout_marginTop="@dimen/space_20"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:layout_marginBottom="@dimen/space_20"-->
+<!--                        android:textSize="@dimen/space_16"-->
+<!--                        android:text="@string/fivehundred_ach"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:background="@drawable/mcu_select_bg"-->
+<!--                        android:gravity="center"-->
+<!--                        />-->
+<!--                    <Button-->
+<!--                        android:id="@+id/id_250ch"-->
+<!--                        android:layout_width="@dimen/space_250"-->
+<!--                        android:layout_height="@dimen/space_50"-->
+<!--                        android:textAllCaps="false"-->
+<!--                        android:layout_marginTop="@dimen/space_20"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:layout_marginBottom="@dimen/space_20"-->
+<!--                        android:textSize="@dimen/space_16"-->
+<!--                        android:text="@string/twohundredandfive_ach"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:background="@drawable/mcu_select_bg"-->
+<!--                        android:gravity="center"-->
+<!--                        />-->
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1" />
+
+    </LinearLayout>
+
+</LinearLayout>

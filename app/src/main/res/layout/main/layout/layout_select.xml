@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chs_select_mcu_bg"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/chs_model"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.04"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:layout_marginLeft="@dimen/space_10"
+                android:textSize="@dimen/space_20"
+                android:textAllCaps="false"
+                android:text="@string/selecu_muc"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="0.5"
+            android:layout_gravity="center"
+            android:gravity="center"
+            >
+            <RelativeLayout
+                android:layout_width="@dimen/space_200"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:background="@drawable/mcu_select_bg"
+                >
+            <Button
+                android:id="@+id/id_300ch"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_50"
+                android:textAllCaps="false"
+                android:textSize="@dimen/space_16"
+                android:text="@string/threehundred_ach"
+                android:textColor="@color/white"
+               android:background="@color/nullc"
+                android:gravity="center"
+               />
+                <ImageView
+                    android:layout_width="@dimen/space_30"
+                    android:layout_height="@dimen/space_30"
+                    android:src="@drawable/chs_menu_factory"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/space_5"
+                    />
+            </RelativeLayout>
+            <Button
+                android:id="@+id/id_sure"
+                android:layout_width="@dimen/space_200"
+                android:layout_height="@dimen/space_50"
+                android:textAllCaps="false"
+                android:layout_marginTop="@dimen/space_30"
+                android:textSize="@dimen/space_16"
+                android:text="@string/Sure"
+                android:textColor="@color/white"
+                android:background="@drawable/mcu_select_bg"
+                />
+
+        </LinearLayout>
+
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

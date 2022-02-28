@@ -1,0 +1,1164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="list_Player">Player List</string>
+
+    <string name="BASS">BASS</string>
+    <string name="MID">MID</string>
+    <string name="TRE">TRE</string>
+    <string name="Player">Player</string>
+    <string name="On">ON</string>
+    <string name="Off">OFF</string>
+    <string name="hardware_manual">Manual</string>
+
+    <string name="selecu_muc">Model selection</string>
+    <string name="eighty_ach">DEQ-80ACH</string>
+    <string name="hundred_ach">DEQ-100ACH</string>
+    <string name="hundredone_ach">DEQ-101ACH</string>
+    <string name="twohundredandfive_ach">TS-BW250LAP</string>
+    <string name="threehundred_ach">DEQ-300ACH</string>
+    <string name="fivehundred_ach">DEQ-500ACH</string>
+
+    <string name="Driving_position">Driving position</string>
+    <string name="Front_part">Rear</string>
+    <string name="rear">All</string>
+
+    <string name="BTL_mode">Bridge</string>
+    <string name="stereo_mode">Stereo</string>
+
+    <string name="standard">standard</string>
+    <string name="bass">bass</string>
+    <string name="classical">classical</string>
+    <string name="Jazz">jazz</string>
+    <string name="popular">popular</string>
+    <string name="Rock">rock</string>
+
+
+    <string name="mode_1">Processor</string>
+    <string name="mode_2">AMP+Processor</string>
+
+
+    <string name="welcome_logo">DCP461 for Android V</string>            <!-- 定义开机界面欢迎信息 -->
+    <string name="app_versions">1.00</string>                                        <!-- 定义本软件版本，本软件版本和下位机版本对应上才能连接 -->
+    <string name="device">Device Version</string>
+    <string name="apps">Software Version</string>
+    <string name="version_error">Connection fail，the version not match，Please update!</string>
+
+    <string name="app_name">Pioneer DSP</string>
+    <string name="app_item_name">Pioneer DSP</string>
+    <string name="LoadDSPSEff">Pioneer DSP Load DSP sound effect</string>
+    <string name="exit">Exit</string>
+    <string name="Logout">Logout</string>
+    <string name="exited">Logout！</string>
+    <string name="exiterror">Logout error！</string>
+    <string name="online_link">Connection with WIFI</string>
+    <string name="offline_link">Disonnection</string>
+    <string name="off_audioauto">Close the automatic input</string>
+    <string name="on_audioauto">Open the automatic input</string>
+    <string name="moni">Analog</string>
+    <string name="ST_BT_DISCONNECT">Disconnect</string>
+    <string name="ST_BT_OFF_LINE">Off line</string>
+    <string name="ST_BT_IS_OPEN">is open&#8230;</string>
+    <string name="ST_BT_IS_CLOSE">is close&#8230;</string>
+    <string name="ST_BT_IN_SYNC">In syncing&#8230;</string>
+    <string name="ST_BT_CONNECTED">Connected</string>
+
+    <string name="BT_TimeOutMsg">Bluetooth connection timeout, please determine whether the correct pairing device. If correct, please manually restart Bluetooth, and then connect。</string>
+
+    <string name="off_line_mode">Off-line!</string>
+    <string name="off_line_mode_no_connected">Off-line</string>
+    <string name="Again_exit">Again according to the exit</string>
+
+    <string name="connected_device_ok">Online mode!</string>
+    <string name="On_line_connected_device_ok">Online mode</string>
+    <string name="SynDataSucess">Data synchronization completed!</string>
+    <string name="please_connect_msg">Please do it online!</string>
+    <string name="Updataing">Is updating data</string>
+    <string name="please_wait">Please wait&#8230;</string>
+    <string name="Connect_please_wait">Connecting, Please wait&#8230;</string>
+    <string name="Close_please_wait">Closing, Please wait&#8230;</string>
+    <string name="SynData">In syncing&#8230;</string>
+    <string name="Open_wifi"> Please open the wifi,connect to DSP Audio-xxx wireless!</string>
+
+    <!--  SPP-BLE -->
+    <string name="spp_le_scanning">Scanning&#8230;</string>
+    <string name="spp_le_select_device">Select device</string>
+    <string name="spp_le_none_paired">None paired device</string>
+    <string name="spp_le_none_found">None found device</string>
+    <string name="spp_le_title_paired_devices">Paired devices</string>
+    <string name="spp_le_title_other_devices">Other devices</string>
+    <string name="spp_le_button_scan">Scan new bluetooth devices</string>
+    <string name="spp_le_device_add">Please added device to the paired devices！</string>
+    <string name="spp_le_device_add_Link">The connection failed. Please connect to the selection device again ！</string>
+    <string name="spp_le_Pairing">pairing&#8230;</string>
+    <string name="spp_le_Paired">paired</string>
+    <string name="spp_le_Linking">Connecting&#8230;</string>
+    <string name="spp_le_NewBluetoothDev">New Bluetooth devices</string>
+
+    <!-- USB -->
+    <string name="DidNotFindUSB">Did not found DSP-HD USB</string>
+    <string name="HaveNotPermission">Have not DSP-HD USB permission</string>
+    <string name="HaveNotInterface">Did not found DSP-HD interface</string>
+    <string name="USB_ATTACHED">DSP-HD USB Attached</string>
+    <string name="USB_DETACHED">DSP-HD USB Remove</string>
+
+
+    <!-- 搜索界面 -->
+    <string name="noNewDevice">no new device</string>
+    <string name="noPairedDevice">no paired device</string>
+    <string name="scanning">Searching&#8230;</string>
+    <string name="select_device">Choose device to connect</string>
+    <string name="pairedDevice">Paired devices</string>
+    <string name="newDevice">New devices</string>
+    <string name="scanNew">Search news</string>
+
+    <string name="Digital">Digital</string>
+    <string name="High">High level</string>
+    <string name="Aux1">AUX1</string>
+    <string name="Aux2">AUX2</string>
+    <string name="Aux3">AUX3</string>
+
+    <string name="BtnBack">Back</string>
+    <string name="Bluetooth_Sel">Select device</string>
+    <string name="Disconnect">Disconnect</string>
+    <string name="Connecting">Connecting</string>
+    <string name="Connect">Connect</string>
+    <string name="Status">Status</string>
+    <string name="Open">Open</string>
+    <string name="Receive">Receive contents</string>
+    <string name="Send">Send contents</string>
+    <string name="BtnSend">Send</string>
+    <string name="BTStateConnect">Bluetooth Connected</string>
+    <string name="BTStateDisconnect">Bluetooth Disconnect</string>
+    <string name="online_link_bt">Connection with Bluetooth</string>
+    <string name="offline_link_bt">Disconnect Bluetooth</string>
+    <string name="Open_BT">Please open the Bluetooth,connect to DSP HD</string>
+    <string name="online_link_usb">Connection with USB</string>
+    <string name="offline_link_usb">Disconnect USB</string>
+
+    <!-- BLE -->
+    <string name="search_BLEdevices">Search BLE devices</string>
+    <string name="ble_not_supported">Your device does not support ble!</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="device_connecting">Connecting&#8230;</string>
+    <string name="device_connected">Connected!</string>
+    <string name="device_offline">Disconnect device!</string>
+    <string name="ble_device_connecting">Connect&#8230;</string>
+    <string name="ble_device_connected">Connected!</string>
+    <string name="ble_offline">Off Line</string>
+    <!-- BLE Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+
+    <string name="Dialog_BTD">Bluetooth device </string>
+    <string name="Dialog_BT_Msg">Whether to turn on the Bluetooth device?</string>
+
+    <string name="DataErr">Data exception！</string>
+    <string name="DataErrResetMuc">The new data was abnormal, whether to restore the factory settings？</string>
+
+
+    <!-- 界面字符 -->
+    <!-- Welcome -->
+    <string name="logo_msg0">All the way have you more wonderful</string>
+    <string name="logo_msg1">Professional car DSP</string>
+
+    <!-- Framework -->
+    <string name="Home">Home</string>
+    <string name="About">About</string>
+    <string name="Store">Store</string>
+    <string name="Set">Settings</string>
+    <string name="Help">Help</string>
+    <string name="Save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="opt_Store">This operation will cover this group of data!</string>
+    <string name="opt_delete">This operation will delete this group of data!</string>
+    <string name="opt_User">Confirm whether to use the current sound!</string>
+    <string name="opt_UserMac">If you want to use this file, you will overwrite all the machine data!</string>
+    <string name="SoundOpt">Efffects operation</string>
+    <string name="GroupOpt">Preset select</string>
+    <string name="Preset">Preset</string>
+    <string name="SetGroupName">Please enter a sound name</string>
+    <string name="sel_user_group">Select the user group, please</string>
+    <string name="Loading">Loading&#8230;</string>
+    <string name="Saving">Saving&#8230;</string>
+    <string name="delete_user">Deleting&#8230;</string>
+    <string name="Save_success">Save success !</string>
+    <string name="Save_error">Save error! </string>
+    <string name="device_version">Device version:</string>
+    <string name="MacDevice">Device:</string>
+    <string name="Software_version">Software version:</string>
+    <string name="Copyright">Copyright：Copyright©</string>
+
+    <string name="IMMToHSet">Please enter the password to enter the advanced settings</string>
+    <string name="MMError">Password error!</string>
+    <string name="MM_PW_RESET">Reset password</string>
+    <string name="MM_PW_Ori">Original：</string>
+    <string name="MM_PW_IN">New：</string>
+    <string name="MM_PW_SIN">Confirm：</string>
+    <string name="MM_PW_RESET_MSG">The two password input is inconsistent！</string>
+    <string name="MM_PW_RESET_OK">Modify successfully！</string>
+    <string name="MM_PW_Input">Please enter 4 digit passwords！</string>
+
+    <string name="BTL">BTL</string>
+    <string name="BTL_Settings">BTL Settings</string>
+    <string name="BTL_Exit">Exit</string>
+    <string name="BTLED">Had BTL!</string>
+
+    <string name="Encryption">Encrypt</string>
+    <string name="Deciphering">Decode</string>
+    <string name="SetEncryption">Please set the encryption password</string>
+    <string name="SetDeciphering">Please enter the decryption password</string>
+    <string name="PasswordIncorrect">Please enter the correct password</string>
+    <string name="Password">Password:</string>
+    <string name="HadEncryption">Data was encrypted</string>
+    <string name="EncryptionSet">Data encryption settings</string>
+    <string name="EncryptionClean">Clean</string>
+    <string name="SetEncryptionClean">Clean encrypted data</string>
+    <string name="EncryptionCleanSet">This action will clear the current set of encrypted data, restore the default</string>
+    <string name="EncryptionSave">Data conversion, please do not interrupt</string>
+    <string name="DataProtection">Data Protection</string>
+    <string name="Decrypt">Decrypt</string>
+    <string name="HighSettings">Advanced settings</string>
+    <string name="BackTOMain">Back</string>
+    <string name="FREQ_ALL">1-Way</string>
+    <string name="FREQ_TWO">2-Way</string>
+    <string name="HiMode">Hi.Level mode</string>
+    <string name="MSUB_VAL">Sub Vol</string>
+    <string name="MSUB_SetCh">Please set the bass channel first</string>
+    <string name="sub_freq">Sub Freq</string>
+    <string name="InputPage">Input</string>
+    <string name="OutputPage">Output</string>
+    <!-- Input  -->
+    <string name="SignalInput">Signal Input</string>
+    <string name="InputSelect">Input Select</string>
+    <string name="Memory">ReCall</string>
+    <string name="MainValume">Master Vol</string>
+    <string name="Valume">Volume</string>
+    <string name="AUX">AUX</string>
+    <string name="Digit">S/PDIF</string>
+    <string name="Hi_Level">Hi.Level</string>
+    <string name="Bluetooth">Bluetooth</string>
+    <string name="AUX1">AUX1</string>
+    <string name="AUX2">AUX2</string>
+    <string name="AUX3">AUX3</string>
+    <string name="Hi.LevelMode">Hi.Level Mode</string>
+    <string name="Way1">1-Way</string>
+    <string name="Way2">2-Way</string>
+    <string name="AUXMode">AUX Mode</string>
+    <string name="T2CH">2CH</string>
+    <string name="F4CH2CH">4CH 2CH</string>
+    <string name="S6CH">6CH</string>
+    <string name="CH0">CH0</string>
+    <string name="CH1">CH1</string>
+    <string name="CH2">CH2</string>
+    <string name="CH3">CH3</string>
+    <string name="CH4">CH4</string>
+    <string name="CH5">CH5</string>
+    <string name="CH6">CH6</string>
+    <string name="CH7">CH7</string>
+    <string name="CH8">CH8</string>
+    <string name="CH9">CH9</string>
+    <string name="CH10">CH10</string>
+    <string name="CH11">CH11</string>
+    <string name="CH12">CH12</string>
+    <string name="GLink">Group:</string>
+    <string name="G0">G0:</string>
+    <string name="G1">G1:</string>
+    <string name="G2">G2:</string>
+    <string name="G3">G3:</string>
+    <string name="G4">G4:</string>
+    <string name="G5">G5:</string>
+    <string name="G6">G6:</string>
+    <string name="G7">G7:</string>
+    <string name="G8">G8:</string>
+    <string name="G9">G9:</string>
+    <string name="G10">G10:</string>
+    <string name="G11">G11:</string>
+    <string name="G12">G12:</string>
+
+    <string name="DigtalInput">Digtal Input</string>
+    <string name="Optical">Optical</string>
+    <string name="Coaxial">Coaxial</string>
+    <string name="Phone">Phone</string>
+    <string name="UserName">Name:</string>
+    <string name="UnitdB">Unit:dB</string>
+    <string-array name="Mixer">
+        　
+        <item>S/PDIF</item>
+        　　
+        <item>Hi.Level</item>
+        <item>Bluetooth</item>
+        <item>AUX1</item>
+        <item>AUX2</item>
+        <item>AUX3</item>
+        <item>OFF</item>
+    </string-array>
+    <string-array name="UseGroup">
+        　
+        <item>1</item>
+        　　
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string name="Sound_EFF1">Effects 1</string>
+    <string name="Sound_EFF2">Effects 2</string>
+    <string name="Sound_EFF3">Effects 3</string>
+    <string name="Sound_EFF4">Effects 4</string>
+    <string name="Sound_EFF5">Effects 5</string>
+    <string name="Sound_EFF6">Effects 6</string>
+    <!-- Delay  -->
+    <string name="SetOutputDelay">Set Output Delay</string>
+    <string name="SetDelay">Delay</string>
+    <string name="Delay_select">Delay</string>
+    <string name="CM">Cm</string>
+    <string name="MS">Ms</string>
+    <string name="Inch">Inch</string>
+    <string name="Unit">Unit：</string>
+    <!-- XOver  -->
+    <string name="XOver">XOver</string>
+    <string name="HighPassFilter">HP</string>
+    <string name="LowPassFilter">LP</string>
+    <string name="HighPass">HP</string>
+    <string name="LowPass">LP</string>
+    <string name="Type">Type</string>
+    <string name="Frequency">Freq</string>
+    <string name="Slope">Oct</string>
+    <string name="FrontLeft">FL</string>
+    <string name="FrontRight">FR</string>
+    <string name="RearLeft">RL</string>
+    <string name="RearRight">RR</string>
+    <string name="Center">Center</string>
+    <string name="Sub">Sub</string>
+    <string name="LeftSub">Sub-L</string>
+    <string name="RightSub">Sub-R</string>
+    <string name="SetFreq">Set Frequency</string>
+    <string name="SetEQ">Set EQ</string>
+    <string name="SetGain">Set Gain</string>
+    <string-array name="FilterType">
+        　
+        <item>Link-Ril</item>
+        　　
+        <item>Bessel</item>
+        　　
+        <item>Butter-W</item>
+    </string-array>
+    <string-array name="FilterSlope">
+        　
+        <item>12dB/Oct</item>
+        　　
+        <item>18dB/Oct</item>
+        <item>24dB/Oct</item>
+        <item>30dB/Oct</item>
+        <item>36dB/Oct</item>
+        <item>42dB/Oct</item>
+        <item>48dB/Oct</item>
+        <item>OFF</item>
+    </string-array>
+    <!-- chs_pop  -->
+    <string name="Filter">Filter</string>
+    <string name="Oct">Oct</string>
+    <string name="Freq">Freq</string>
+    <string name="FilterLR">"Link-Ril"</string>
+    <string name="FilterB">Bessel</string>
+    <string name="FilterBW">Butter-W</string>
+    <string name="Otc6dB">6dB/Oct</string>
+    <string name="Otc12dB">12dB/Oct</string>
+    <string name="Otc18dB">18dB/Oct</string>
+    <string name="Otc24dB">24dB/Oct</string>
+    <string name="Otc30dB">30dB/Oct</string>
+    <string name="Otc36dB">36dB/Oct</string>
+    <string name="Otc42dB">42dB/Oct</string>
+    <string name="Otc48dB">48dB/Oct</string>
+    <string name="OtcOFF">OFF</string>
+    <!-- Output  -->
+    <string name="SignalOutput">Signal Output</string>
+    <string name="Output">Output</string>
+    <string name="Polar_P">0°</string>
+    <string name="Polar_N">180°</string>
+    <string name="ID">ID</string>
+    <string name="EQ">EQ</string>
+    <string name="Q">Q</string>
+    <string name="dB">dB</string>
+    <string name="Freq.">Freq</string>
+    <string name="Work">Work</string>
+    <string name="GroupingOfFront">Link F-LR</string>
+    <string name="GroupingOfRear">Link R-LR</string>
+    <string name="GroupingOfSub">Link SUB-LR</string>
+    <string name="GroupingOfAll">Link All</string>
+
+    <string name="GroupingOfFrontCancel">Unlink F-LR</string>
+    <string name="GroupingOfRearCancel">Unlink R-LR</string>
+    <string name="GroupingOfSubCancel">Unlink Sub-LR</string>
+    <string name="GroupingOfAllCancel">Unlink All</string>
+
+    <string name="SetLink">Settings Link</string>
+    <string name="DelLinkGroup">Delete</string>
+    <string name="AddLinkGroup">Add G</string>
+    <string name="NULL">NULL</string>
+    <string name="OFF">OFF</string>
+    <string name="FL_Tweeter">FL-Tweeter</string>
+    <string name="FL_Midrange">FL-Midrange</string>
+    <string name="FL_Woofer">FL-Woofer</string>
+    <string name="FL_M_T">"FL-M&#38;T"</string>
+    <string name="FL_M_WF">FL-M&#38;WF</string>
+    <string name="FL_Full">FL-Full</string>
+
+    <string name="FR_Tweeter">FR-Tweeter</string>
+    <string name="FR_Midrange">FR-Midrange</string>
+    <string name="FR_Woofer">FR-Woofer</string>
+    <string name="FR_M_T">FR-M&#38;T</string>
+    <string name="FR_M_WF">FR-M&#38;WF</string>
+    <string name="FR_Full">FR-Full</string>
+
+    <string name="RL_Tweeter">RL-Tweeter</string>
+    <string name="RL_Woofer">RL-Woofer</string>
+    <string name="RL_Full">RL-Full</string>
+
+    <string name="RR_Tweeter">RR-Tweeter</string>
+    <string name="RR_Woofer">RR-Woofer</string>
+    <string name="RR_Full">RR-Full</string>
+
+    <string name="C_Tweeter">C-Tweeter</string>
+    <string name="C_Woofer">C-Woofer</string>
+    <string name="C_Full">C-Full</string>
+
+    <string name="L_Subweeter">L-Subwoofer</string>
+    <string name="R_Subweeter">R-Subwoofer</string>
+    <string name="Subweeter">Subwoofer</string>
+    <string name="Front_Subweeter">Front-Subwoofer</string>
+    <string name="Rear_Subweeter">Rear-Subwoofer</string>
+    <string name="C_Front">CL-Full</string>
+    <string name="C_Rear">CR-Full</string>
+
+    <string name="SetValume">Set Volume</string>
+    <string name="SetLeftIPSP">Set the left proportion of sound source </string>
+    <string name="SetRightIPSP">Set the right proportion of sound source </string>
+    <string name="Grouping">Grouping</string>
+
+    <string name="Link">R/L Link</string>
+    <string name="UnLink">UnLink</string>
+    <string name="Locked">Locked</string>
+    <string name="Unlock">Unlock</string>
+    <string name="Reset">RE-OUT</string>
+
+    <string name="Opt_Channel_Set">The output map emptied or restore default</string>
+    <string name="Emptied">Clear</string>
+    <string name="Default">Default</string>
+
+    <string name="Opt_Channel_Locked">Whether locking output map?</string>
+    <string name="Opt_Channel_unlock">Whether unlocked output map?</string>
+    <string name="Opt_Channel_cannotlock">All output map is empty, the output map could not be locked.</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+
+    <string name="Set_LinkLR">Set link LR output!</string>
+    <string name="Opt_Channel_Link">Need to synchronize the data transfer, please select sync mode</string>
+    <string name="NoLinkLR">No link LR output!</string>
+    <string name="GroupDel">Delete</string>
+    <string name="GroupJoin">Join</string>
+    <string name="FrontCoupling">Group of Front</string>
+    <string name="RearCoupling">Grouping of Rear</string>
+    <string name="AllCoupling">Grouping of All</string>
+    <string name="SubCoupling">Grouping of Sub</string>
+    <string name="LeftToRight">Copy from left to right</string>
+    <string name="RightToLeft">Copy from right to left</string>
+    <string name="LinkBase">Which channel data should be applied?</string>
+    <string name="LinkBaseCh1">Front Left be applied?</string>
+    <string name="LinkBaseCh2">Front Right be applied?</string>
+    <string name="LinkBaseCh3">Rear Left be applied?</string>
+    <string name="LinkBaseCh4">Rear Right be applied?</string>
+    <string name="LinkBaseCh5">Center be applied?</string>
+    <string name="LinkBaseCh6">CH6.Sub be applied?</string>
+    <string name="LinkBaseCh5D">Left Sub be applied?</string>
+    <string name="LinkBaseCh6D">Right Sub be applied?</string>
+    <string name="Link_About">Note: first select the channel, and then create the link set.</string>
+    <string name="OutChSel">Channe</string>
+    <string name="OutGroupSel">Group</string>
+    <!-- 全部通道固定联调  -->
+    <string name="OutChAllTWOLinkTitle">Group Settings</string>
+    <string name="OutChAllTWOLinkMSG">Need to synchronize the data transfer, please select sync mode</string>
+    <string name="OutChAllTWOLeftToRight">Copy from left to right</string>
+    <string name="OutChAllTWORightToLeft">Copy from right to left</string>
+    <!-- About  -->
+
+    <string name="Sure">Sure</string>
+    <string name="cancle">Cancle</string>
+    <string name="cancleLink">Cancle link</string>
+    <string name="Set_Store_Recall">Save this machine data, and then call the</string>
+    <string name="ChangeMachine">Switch machine processing</string>
+    <string name="SetHeadAndVersion">Set head data and version</string>
+    <string name="SetHeadData">Head Data:</string>
+    <string name="SetVersion">Version:</string>
+    <string name="SetHeadDataHint">Input Decimal digit</string>
+    <string name="SetVersionHint">Version:lest 9 chars</string>
+
+    <!-- 分量  -->
+
+    <string name="Weight">Mixer</string>
+    <string name="IN1">Hi.Level1</string>
+    <string name="IN2">Hi.Level2</string>
+    <string name="IN3">Hi.Level3</string>
+    <string name="IN4">Hi.Level4</string>
+    <string name="IN5">AUX1</string>
+    <string name="IN6">AUX2</string>
+    <string name="IN7">AUX3</string>
+    <string name="IN8">AUX4</string>
+    <string name="IN9">Optical</string>
+    <string name="IN10">Coaxial</string>
+    <string name="IN11">Bluetooth</string>
+    <string name="IN12">AUX4</string>
+    <string name="IN13">SPDIF-L</string>
+    <string name="IN14">SPDIF-R</string>
+    <string name="IN15">Bluetooth-L</string>
+    <string name="IN16">Bluetooth-R</string>
+
+    <string name="Mixer_Mixer">Mixer</string>
+    <string name="Mixer_IN1">Hi.Level input1</string>
+    <string name="Mixer_IN2">Hi.Level input2</string>
+    <string name="Mixer_IN3">Hi.Level input3</string>
+    <string name="Mixer_IN4">Hi.Level input4</string>
+    <string name="Mixer_IN5">AUX input1</string>
+    <string name="Mixer_IN6">AUX input2</string>
+    <string name="Mixer_IN7">AUX3</string>
+    <string name="Mixer_IN8">AUX4</string>
+    <string name="Mixer_IN9">Optical</string>
+    <string name="Mixer_IN10">Coaxial</string>
+    <string name="Mixer_IN11">Bluetooth</string>
+    <string name="Mixer_IN12">AUX4</string>
+    <string name="Mixer_IN13">SPDIF input-L</string>
+    <string name="Mixer_IN14">SPDIF input-R</string>
+    <string name="Mixer_IN15">BLE input-L</string>
+    <string name="Mixer_IN16">BLE input-R</string>
+
+
+    <string name="Mixer_HI_1">Hi.Level input1</string>
+    <string name="Mixer_HI_2">Hi.Level input2</string>
+    <string name="Mixer_HI_3">Hi.Level input3</string>
+    <string name="Mixer_HI_4">Hi.Level input4</string>
+    <string name="Mixer_HI_5">Hi.Level input5</string>
+    <string name="Mixer_HI_6">Hi.Level input6</string>
+    <string name="Mixer_HI_7">Hi.Level input7</string>
+    <string name="Mixer_HI_8">Hi.Level input8</string>
+    <string name="Mixer_HI_9">Hi.Level input9</string>
+    <string name="Mixer_HI_10">Hi.Level input10</string>
+    <string name="Mixer_HI_11">Hi.Level11</string>
+    <string name="Mixer_HI_12">Hi.Level12</string>
+
+    <string name="Mixer_AUX_1">AUX input1</string>
+    <string name="Mixer_AUX_2">AUX input2</string>
+    <string name="Mixer_AUX_3">AUX3</string>
+    <string name="Mixer_AUX_4">AUX4</string>
+    <string name="Mixer_AUX_5">AUX5</string>
+    <string name="Mixer_AUX_6">AUX6</string>
+    <string name="Mixer_AUX_7">AUX7</string>
+    <string name="Mixer_AUX_8">AUX8</string>
+    <string name="Mixer_AUX_9">AUX9</string>
+    <string name="Mixer_AUX_10">AUX10</string>
+    <string name="Mixer_AUX_11">AUX11</string>
+    <string name="Mixer_AUX_12">AUX12</string>
+
+    <string name="Mixer_Opt">Optical</string>
+    <string name="Mixer_Coa">Coaxial</string>
+    <string name="Mixer_Digit">SPDIF</string>
+    <string name="Mixer_Digit_L">SPDIF-L</string>
+    <string name="Mixer_Digit_R">SPDIF-R</string>
+    <string name="Mixer_Bluetooth">Bluetooth</string>
+    <string name="Mixer_Blue_L">BLE input-L</string>
+    <string name="Mixer_Blue_R">BLE input-R</string>
+
+
+    <string name="Mixer_IN_1">IN1</string>
+    <string name="Mixer_IN_2">IN2</string>
+    <string name="Mixer_IN_3">IN3</string>
+    <string name="Mixer_IN_4">IN4</string>
+    <string name="Mixer_IN_5">IN5</string>
+    <string name="Mixer_IN_6">IN6</string>
+    <string name="Mixer_IN_7">IN7</string>
+    <string name="Mixer_IN_8">IN8</string>
+    <string name="Mixer_IN_9">IN9</string>
+    <string name="Mixer_IN_10">IN10</string>
+    <string name="Mixer_IN_11">IN11</string>
+    <string name="Mixer_IN_12">IN12</string>
+    <string name="Mixer_IN_13">IN13</string>
+    <string name="Mixer_IN_14">IN14</string>
+    <string name="Mixer_IN_15">IN15</string>
+    <string name="Mixer_IN_16">IN16</string>
+    <!-- 默认显示字符  -->
+    <string name="dB60">-60dB</string>
+    <string name="delay20">20.000</string>
+    <string name="freq20">20000HZ</string>
+    <string name="one">Effects 1</string>
+    <string name="two">Effects 2</string>
+    <string name="three">Effects 3</string>
+    <string name="four">Effects 4</string>
+    <string name="five">Effects 5</string>
+    <string name="six">Effects 6</string>
+
+    <!-- 均衡器  -->
+    <string name="Equalizer">EQ</string>
+    <string name="Equalizer_SetDefault">Bypass EQ</string>
+    <string name="Equalizer_SetRecover">Reset EQ</string>
+        <string name="Equalizer_ResetEQ">Reset EQ</string>
+    <string name="Equalizer_Q">Q:</string>
+    <string name="Equalizer_Freq">Freq:</string>
+    <string name="PEQ_MODE">P.EQ Mode</string>
+    <string name="GEQ_MODE">G.EQ Mode</string>
+    <string name="Bypass_EQ">Bypass EQ</string>
+    <string name="Restore_EQ">Restore EQ</string>
+    <string name="FrontLeftCh_EQ">Front Left EQ</string>
+    <string name="FrontRightCh_EQ">Front Right EQ</string>
+    <string name="RearLeftCh_EQ">Rear LeftEQ</string>
+    <string name="RearRightCh_EQ">Rear RightEQ</string>
+    <string name="SubLeftCh_EQ">Sub LeftEQ</string>
+    <string name="SubRightCh_EQ">Sub RightEQ</string>
+    <string name="EnterEQ">Enter EQ&#8230;</string>
+
+    <string name="EQ_Table">ID:</string>
+    <string name="EQ_Q">Q:</string>
+    <string name="EQ_Freq">F:</string>
+    <string name="EQ_Gain">G:</string>
+    <string name="EQ_EQ">EQ</string>
+    <string name="ResetEQT">Reset all EQ</string>
+    <string name="ResetEQ">Whether the reset all EQ？</string>
+    <string name="ModeChange">The current mode is PEQ, whether to convert to the GEQ and enter the hand-adjusting interface.</string>
+    <string name="boot_default_source">Boot default source</string>
+    <string name="ModeNotChange">The current mode is PEQ, whether to convert to the GEQ ?</string>
+
+    <string name="SET_EQ_Q">Set Q</string>
+    <string name="SET_EQ_Freq">Set Freq</string>
+    <string name="SET_EQ_Gain">Set Gain</string>
+
+    <string name="Prompting">Prompting</string>
+    <string name="ByPassEQ">Whether byPass all EQ?</string>
+    <string name="RecoverEQ">Whether restore all EQ?</string>
+
+
+    <string name="Statement">Disclaimer</string>
+    <string name="StatementShow">Always show</string>
+    <string name="StatementAccept">Accept</string>
+    <string name="StatementCON">"        Do not operate this application or any handheld device while driving.This  application is not be used while driving.Only operate this application when outside the vehicle or when the vehicle gearshift is in "park". Always obey all traffic laws."</string>
+    <!-- =================NET=================  -->
+    <string name="chs_name">广州市车厘子电子科技有限公司</string>
+    <string name="chs_tel">020&#8211;87282169</string>
+    <string name="chs_contacts">Mr Qing</string>
+    <string name="chs_web">www.chschs.com</string>
+    <string name="chs_weixin">CHSAUDIO</string>
+    <string name="chs_qq">QQ123456</string>
+    <string name="chs_briefing_en">The company was founded in 2013, is a focus on car DSP audio research and development program integrated company.</string>
+    <string name="chs_briefing_zh">公司成立于2013年，是一家专注于车载DSP音频研究开发的方案集成型公司。</string>
+    <string name="chs_brand">CHS</string>
+
+
+    <string name="DM_CHead">Communications</string>
+    <string name="DM_ID">Equipment ID</string>
+    <string name="DM_Version">Device version</string>
+    <string name="DM_VolumeM">Volume control</string>
+    <string name="DM_MVolume">Master volume</string>
+    <string name="DM_OutputV">Output volume</string>
+    <string name="DM_MVCT">Master volume communication mode</string>
+    <string name="DM_CHSet">Channel setting</string>
+    <string name="DM_MaxIn">Set input channels</string>
+    <string name="DM_MaxOut">Set output channels</string>
+    <string name="DM_OCT">Filter slope</string>
+    <string name="DM_MaxDelay">Maximum delay</string>
+    <string name="DM_MAXEQ">EQ segments</string>
+    <string name="DM_MAXEQGain">EQ Max gain</string>
+
+    <string name="SEFF1">Fashionable</string>
+    <string name="SEFF2">Dance</string>
+    <string name="SEFF3">Rock</string>
+    <string name="SEFF4">Classical</string>
+    <string name="SEFF5">Vocal</string>
+    <string name="SEFF6">Bass</string>
+    <string name="SEFF7">mansuetude</string>
+
+
+    <string name="LoadSEff_Success">Successfully updated the current sound effect！</string>
+    <string name="LoadSEff_Fail">Update current sound effect failed ！</string>
+
+    <!-- =================NET UI =================  -->
+    <!-- =================FRAME Layout=================  -->
+    <string name="BBar_Home">Home</string>
+    <string name="BBar_Toning">Toning</string>
+    <string name="BBar_Forum">Forum</string>
+    <string name="BBar_Mine">Mine</string>
+
+    <string name="Home_MacSeff">Built in sound</string>
+    <string name="Home_ListMore">More</string>
+    <string name="Home_List1">Hot share</string>
+    <string name="Home_List2">Best-download lists</string>
+    <string name="Home_List3">China car DSP Forum</string>
+
+
+    <string name="TBarToning_Home">Home</string>
+    <string name="TBarToning_SoundField">Sound Field</string>
+    <string name="TBarToning_Subwoofer">Subwoofer</string>
+
+    <string name="Toning_DelayType">Delay Type</string>
+    <string name="Toning_CarType">Car Type</string>
+
+
+    <string name="Toning_Speaker">Speaker</string>
+    <string name="Toning_Zone">Zone</string>
+    <string name="Toning_Custom">Custom</string>
+    <string name="Toning_SCar">Small Car</string>
+    <string name="Toning_MCar">Mid Car</string>
+    <string name="Toning_LCar">Large Car</string>
+
+    <string name="Toning_HHigh">High</string>
+    <string name="Toning_HMid">Middle</string>
+    <string name="Toning_HLow">Low</string>
+
+    <string name="Mine_Login">Login</string>
+    <string name="Mine_LoginFast">Quick logon</string>
+    <string name="Mine_Essential_Information">Essential information</string>
+    <string name="Mine_Subscriptions">Subscriptions</string>
+    <string name="Mine_SEff">Sound effect</string>
+    <string name="Mine_BBS">BBS</string>
+    <string name="Mine_Comment">Comment</string>
+    <string name="Mine_Feedback">Feedback</string>
+    <string name="Mine_Device_management">Device management</string>
+    <string name="Mine_About">About</string>
+
+
+    <string name="Mine_InfoSignature">Signature</string>
+    <string name="Mine_InfoBaseData">Base Data</string>
+
+
+    <string name="Mine_AboutTVN">Advanced</string>
+    <string name="Mine_AboutTV">5.4.21.3</string>
+    <string name="Mine_AboutCheckV">Check the new version</string>
+    <string name="Mine_AboutTEL">:020&#8211;87282169</string>
+
+
+    <string name="SetHeadPic">Select Picture&#8230;</string>
+    <string name="Album">Album</string>
+    <string name="Photograph">Photograph</string>
+    <!-- =================NET=================  -->
+    <string name="net_down">Sound eff lib</string>
+    <string name="net_downed">Local EFF</string>
+    <string name="net_upload">Share</string>
+    <string name="share_seff">Share the current sound</string>
+    <string name="share_all_seff">Share all preset file</string>
+    <string name="load_seff">Update sound file</string>
+    <string name="net_regandload">Register/Loading</string>
+    <string name="net_CatType">CatType:</string>
+    <string name="net_MacType">MacType:</string>
+    <string name="net_EFF">Effect:</string>
+    <!-- ==================net_register================  -->
+    <string name="Register">Register</string>
+    <string name="Register_Name">Name</string>
+    <string name="Register_Password">Please enter your password&#8230;</string>
+    <string name="Register_Phone">Phone</string>
+    <string name="Register_Mailbox">Mailbox</string>
+    <string name="Register_CatType">Motorcycle type</string>
+    <string name="Register_CatBrand">Brand</string>
+    <string name="Register_MacType">Equipment model</string>
+    <string name="Register_Now">Register immediately</string>
+
+    <string name="Register_Head">Portrait</string>
+    <string name="Register_LName">Nickname</string>
+    <string name="Register_MAC">Model</string>
+    <string name="Register_SIGN">Personalized signature</string>
+
+
+    <string name="Register_SPassword">Password</string>
+    <string name="Register_Sinfo">Please enter the correct:</string>
+
+    <string name="ULSE_UploadSeffIng">Uploading&#8230;</string>
+    <string name="ULSE_SaveLocalSeff">Save file</string>
+    <string name="ULSE_UploadSeff">Sound effect upload</string>
+    <string name="ULSE_SE_Pic">Photograph</string>
+    <string name="ULSE_SE_Name">Name</string>
+    <string name="ULSE_File_Name">File name</string>
+    <string name="ULSE_UPToPrivate">Upload to private space</string>
+    <string name="ULSE_UPToShare">Share to Mak-er space</string>
+    <string name="ULSE_MAC_SET">Model setting</string>
+    <string name="ULSE_MaxInput200">Input up to 200 words</string>
+    <string name="ULSE_Succeed">Upload success！</string>
+    <string name="ULSE_Failed">Upload failed！</string>
+    <string name="ULSE_FeedbackSucceed">Feedback success！</string>
+    <string name="ULSE_FeedbackFailed">Feedback failed！</string>
+    <string name="ULSE_FileNameMsg">Please enter a file name！</string>
+    <string name="ULSE_CartTypeMsg">Please select the car type！</string>
+    <string name="ULSE_SAMENAME">Please enter another name, This machine already has this file！</string>
+
+    <string name="ULSE_Modify">Modify sound information</string>
+    <string name="ULSE_SaveAndUpload">Save and upload</string>
+    <!-- ==================net_loading================  -->
+    <string name="LoginSuccess">Login Success!</string>
+    <string name="LoginFailed">Login Failed!</string>
+    <string name="loading">load</string>
+    <string name="loading_forpd">Forget password?</string>
+    <string name="loading_Reg">Register</string>
+    <string name="loading_Name">Name/Phone/Mailbox</string>
+
+    <string name="loading_MSG_INamePW">Please enter the correct user name and password!</string>
+    <string name="loading_NoNet">No connected network!</string>
+
+
+    <string name="login_savemm">Remember password</string>
+    <string name="Login_auto">Auto Login</string>
+
+    <!-- ==================chs_net_down================  -->
+    <string name="download">Download</string>
+    <string name="down_search_car">Search Car?</string>
+    <string name="car0">三菱</string>
+    <string name="car1">卡罗拉</string>
+    <string name="car2">长城</string>
+    <string name="car3">飞度</string>
+    <string name="car4">宝马</string>
+    <string name="car5">奥迪</string>
+    <string name="searchmore">Search more?</string>
+    <string name="Upload_person">Upload person</string>
+    <string name="Upload_time">time：</string>
+    <string name="Details">Details</string>
+    <string name="DownMACType">Mac Type</string>
+    <string name="down_title_name">Name</string>
+    <string name="down_title_user">User</string>
+    <string name="down_title_time">Time</string>
+    <string name="down_title_Collect">Collect</string>
+    <string name="down_title_Favorite">Favorite</string>
+    <string name="down_title_Recently">Recently</string>
+    <string name="DialogDel">Delete</string>
+    <string name="DialogDelMsg">Confirm whether to delete selected files?</string>
+    <string name="OpenSeffFile">Scan local file</string>
+    <!-- ==================文件管理================  -->
+    <string name="action_settings">Settings</string>
+    <string name="root">Root dirctory</string>
+    <string name="title">File manager </string>
+    <string name="delSuccess">Delete Success!</string>
+    <string name="delFailed">Delete Failed!</string>
+    <string name="del">Delete</string>
+    <string name="copy">Copy</string>
+    <string name="mod">Rename</string>
+    <string name="stick">Paste</string>
+    <string name="DelayCenter">Center</string>
+    <string name="cancel">Cancel</string>
+    <string name="FileError">Please open the correct sound file!</string>
+    <string name="SaveMachine">Machine</string>
+    <string name="SaveLocal">Local</string>
+    <string name="ShareError">Share error!</string>
+    <string name="UpdateLocalFile">Local data has been updated!</string>
+    <!-- ==================SEFF 列表================  -->
+    <string name="TableSearch">Please enter keyword</string>
+    <string name="PSetValidName">Please enter a valid name</string>
+    <string name="seffitem_reorder">Reorder</string>
+    <string name="seffitem_multiselect">Multiselect</string>
+    <string name="seffitem_download">Download</string>
+    <string name="seffitem_apply">Apply</string>
+    <string name="seffitem_share">Share</string>
+    <string name="seffitem_favoriate">Favoriate</string>
+    <string name="seffitem_love">Love</string>
+    <string name="seffitem_delete">Delete</string>
+    <string name="seffitem_details">Details</string>
+    <string name="seffitem_new">New!</string>
+    <string name="seffitem_sellall">Check all</string>
+    <string name="seffitem_sellOpt">Cancle</string>
+    <string name="seffitem_haveSel">Selected</string>
+    <string name="SEFF_ScanInBackground">Scan And Update run in background!</string>
+    <string name="SEFF_WRONG_MAC">Models do not match！</string>
+
+    <!-- 保存单组和整机音效  -->
+    <string name="SSM_Save">Save sound file</string>
+    <string name="SSM_FileName">File Name:</string>
+    <string name="SSM_Detials">Detials:</string>
+    <string name="SSM_FileNameMsg">Please enter a file name!</string>
+    <string name="SSM_Single">Single</string>
+    <string name="SSM_Machine">Machine</string>
+    <string name="SSM_SaveOpt">Save</string>
+    <string name="SSM_ShareOpt">Share</string>
+    <string name="SSM_ShareMSG">Would you like to share a single file or a whole file？</string>
+    <string name="SSM_SaveMSG">Would you like to save a single file or a whole file？</string>
+    <string name="SSM_CancelOpt">Cancel</string>
+    <string name="SSM_Title">Audio data update</string>
+    <string name="SSM_MSG">Receive a sound file data, Do you want to updated？</string>
+    <string name="SSM_ShareMacMSG">Share the whole machine sound effet, This may take several minutes.</string>
+    <string name="SSM_SaveMacMSG">Save the whole machine sound effet, This may take several minutes.</string>
+    <string name="SSM_REC">Receive a sound file data，saved to list.</string>
+    <!-- 菜单选项  -->
+    <string name="Menu_Share">Share effect</string>
+    <string name="Menu_Save">Save effect</string>
+    <string name="Menu_Open">Local effect</string>
+    <string name="Menu_About">About</string>
+    <string name="Menu_Exit">Exit</string>
+    <string name="Menu_Title">DSP tone tuning</string>
+
+    <string name="USERG_SEFF_Save">Save current data</string>
+    <string name="USERG_SEFF_List">Local data</string>
+
+    <string name="Ad_Title">Settings</string>
+    <string name="Ad_Nonsupport">Nonsupport</string>
+    <string name="Ad_EptSet">Encryption</string>
+    <string name="Ad_HIFreqSet">Freq All/Freq half</string>
+    <string name="Ad_InputSourceSet">Input source</string>
+    <string name="Ad_InputSourceVol">Input source Vol</string>
+    <string name="Ad_MixerSourceSet">Mixer source</string>
+    <string name="Ad_OutSPKSet">Output speaker type</string>
+    <string name="Ad_MixerSet">Mixer</string>
+    <string name="Ad_MixerSetMsg">Mixer settings only support high level input, please set high level ！</string>
+    <string name="Ad_InputSourceMain">Input source</string>
+    <string name="Ad_InputSourceMixer">Mix source</string>
+
+    <string name="DelayLink_LR">L&amp;R Link</string>
+    <string name="DelayLink_ALL">All Link</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="Music">Music</string>
+    <string name="action_search">Search</string>
+    <string name="action_compose">Compose</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_submit">Submit</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_music_sortsettings">Music Sort</string>
+    <string name="bluetoothpush">PUSH</string>
+    <string name="device_connection">CONNECTION</string>
+    <string name="playlist">Player list</string>
+    <string name="uhostplay">UHOST</string>
+    <string name="notice_search_select_bluetooth">Search/select bluetooth decice:</string>
+    <string name="notice_device_not_found">Device not found!</string>
+    <string name="notice_device_cannot_connect">Device can not connect!</string>
+    <string name="notice_device_connected">connected</string>
+    <string name="notice_device_media_connecting">media connecting...</string>
+    <string name="notice_device_disconnected">disconnected</string>
+    <string name="notice_device_data_connecting">data connecting...</string>
+    <string name="notice_device_media_connected">media connected</string>
+    <string name="notice_device_media_pairing">pairing...</string>
+    <string name="notice_loadingnum">Total number of songs： </string>
+    <string name="notice_loadingcurrentnum">Current loading： </string>
+    <string name="dialog_title_message">Message</string>
+    <string name="dialog_message_exit">Are you want to exit the BluetoothBox?</string>
+    <string name="dialog_message_disconncect">Are you want to disconnect the current connection?</string>
+    <string name="dialog_title_warning">Warning</string>
+    <string name="dialog_title_info">Info</string>
+    <string name="dialog_title_device">Device</string>
+    <string name="dialog_title_devicename">Device Name</string>
+    <string name="dialog_show_disconnect">Disconnect</string>
+    <string name="dialog_show_devicemessage">Device Information</string>
+    <string name="dialog_show_setting_message">Turn Settings to proceed?</string>
+    <string name="dialog_show_setting_positive">Goto</string>
+    <string name="notice_playmode_notexit">Play mode are not exit!</string>
+    <string name="notice_playmode_straight">Play straightly</string>
+    <string name="notice_playmode_repeat">Play repeatly</string>
+    <string name="notice_playmode_toggle">Play togglely</string>
+    <string name="notice_playmode_repeatone">Play repeatonely</string>
+    <string name="notice_playmode_continue">Play continue</string>
+    <string name="notice_playmode_lastsong">It is the last song!</string>
+    <string name="notice_list_null">list null!</string>
+    <string name="notice_bluetoothbox_exception">BluetoothBox Exception</string>
+    <string name="notice_lyric_warn">Error reading or writting! Lyric is not support!</string>
+    <string name="music_preparation_message">Music is in preparation...</string>
+    <string name="music_info_title">Title：</string>
+    <string name="music_info_artist">Artist：</string>
+    <string name="music_info_ablum">Ablum：</string>
+    <string name="music_info_styles">Styles：</string>
+    <string name="music_info_mime">Format：</string>
+    <string name="music_info_data">Year：</string>
+    <string name="music_info_bitratio">Bit ratio：</string>
+    <string name="music_info_sampleratio">Sample ratio：</string>
+    <string name="connection_connect_fail">Fail to connect. Please Retry.</string>
+    <string name="connection_connect_data_fail">Fail to connect for data. Please check your device.</string>
+    <string name="ok">OK</string>
+    <string name="unknown">Unknown</string>
+    <string name="music_info_error">Sorry, the player does not support the playback of this kind of music.</string>
+    <string name="music_storge_busy">Memory cards have been occupied .</string>
+    <string name="music_totaltime">00:00</string>
+    <string name="bluetoothbox_fagment_listview_musicname">MusicName</string>
+    <string name="bluetoothbox_fagment_listview_author">Author</string>
+    <string name="music_lrc_getmsg">Getting lyrics...</string>
+    <string name="SyncDataMsg">Do you want to synchronize channel data?</string>
+    <string name="UHostOut">UHOST has been pulled out！</string>
+    <string name="UHostPlayMsg">Change UHost when you click here！</string>
+    <string name="unknownSong">Unknown songs</string>
+    <string name="unknownArtist">Unknown Artist</string>
+    <string name="UpdateMusicListMsg">Song list loading completion！</string>
+    <string name="UpdateFileListMsg">File synchronization completion！</string>
+    <string name="uhost">USB Disk</string>
+    <string name="Songs">Songs</string>
+    <string name="ScanFile">Scan File:</string>
+    <string name="UpdateList">Update List:</string>
+    <string name="Changemode">Change mode</string>
+    <string name="DSPPlayDisconnectedMsg">DSP Play No data response, please reconnect ！</string>
+    <string name="WaitListMsg">Please wait for the list to load complete！</string>
+    <string name="BusyMsg">he equipment is busy. Please wait a moment！</string>
+    <string name="ChangeBluetoothMode">Change to PUSH mode</string>
+    <string name="ChangeUhostMode">Change to UHost mode</string>
+    <string name="MusicOptPlay">Play</string>
+    <string name="MusicOptPause">Pause</string>
+    <string name="MusicOptNext">Next</string>
+    <string name="MusicOptPre">Previous</string>
+    <string name="LinkOfMsg">Join the exception, exit the connection！</string>
+    <string name="MyFile">My Udisk music</string>
+    <string name="NullMusicMsg">No songs list！</string>
+    <string name="UpdataMusicListMsg">Udisk track change, reload list！</string>
+    <string name="UpdataMusicListNowMsg">Updating the list of songs！</string>
+    <string name="OffLineMsg">Unconnected device ！</string>
+    <string name="TriesToConnectTo">Tries to connect to</string>
+    <string name="LoadMusicListFUMsg">Update the list of udisk songs ！</string>
+    <string name="GetMacTypeMsg">Get the machine type &#8230;</string>
+    <string name="UnknowMacType">Unknown model！</string>
+    <string name="GetMasterVolMsg">Get Master Volume Failed!</string>
+    <string name="ChangeUHostNullMsg">Unable to switch to Udisk mode, please insert the Udisk !</string>
+    <string name="RefusedUseBluetooth">The user refused to use Bluetooth and was unable to use the software !</string>
+    <string name="SlideUnlock">SlideUnlock</string>
+    <string name="Day">""</string>
+    <string name="Mon">-</string>
+    <string name="Monday">Monday</string>
+    <string name="Tuesday">Tuesday</string>
+    <string name="Wednesday">Wednesday</string>
+    <string name="Thursday">Thursday</string>
+    <string name="Friday">Friday</string>
+    <string name="Saturday">Saturday</string>
+    <string name="Sunday">Sunday</string>
+
+    <string name="permission">Permission</string>
+    <string name="no_permissions">The application requires the necessary running permissions</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="string_help_text">The current application lacks the necessary permissions .\n\nplease click\"Settings\"-\"Permission\"-Open the required permissions.\n\nFinally, click the two back button to return.</string>
+    <string name="quit">Quit</string>
+
+    <string name="quitLackPer">Unable to run due to lack of primary permissions!</string>
+    <string name="DownloadErr">Download error!</string>
+    <string name="FindNewVirsion">Find a new version</string>
+    <string name="UpdateNow">Update now</string>
+    <string name="UpdateInBackground">Run in background</string>
+    <string name="UpdateCon">You are currently using a mobile network, do you want to continue updating?</string>
+    <string name="UpdateLater">Next time</string>
+    <string name="AppDownloading">Downloading</string>
+    <string name="AppUpdate">Update</string>
+    <!-- 推送 -->
+    <string name="hello">Hello World, JPush!</string>
+    <string name="tag_hint">Tag can be number, alphabet, underscore, Chinese. Use , to split many tags.</string>
+    <string name="alias_hint">Alias can be number, alphabet, underscore, Chinese.</string>
+    <string name="mobilenumber_hint">The phone number can only start with a "+" or a number,other can only contain "-" and Numbers</string>
+    <string name="style_hint">style should be number</string>
+    <string name="error_style_empty">style cannot be empty</string>
+    <string name="error_alias_empty">alias cannot be empty</string>
+    <string name="error_tag_empty">tag cannot be empty</string>
+    <string name="error_tag_gs_empty">Invalid format</string>
+    <string name="mobilenumber_empty_guide">will clear last set phone number</string>
+    <string name="error_network">Failed to init due to network exception.</string>
+    <string name="logining">Running in background. Please see log.</string>
+    <string name="setting_su">Succeed to set</string>
+
+    <string name="AutoConnect">AutoConnect</string>
+    <string name="offlineDSPMsg">Unable to use DSP tone function, please upgrade the device program</string>
+    <string name="offlineDSPPlayMsg">The device does not support lossless Bluetooth, please replace the Bluetooth device</string>
+    <string name="CloseSoundMsg">This product is played with Bluetooth. Please close touch and button sound to get a better experience！</string>
+    <string name="CloseSoundMsg1">For better use of this software, please turn off touch and button sound! (click to) </string>
+    <string name="ConnectSuccMsg">Successful connection, synchronizing data&#8230;</string>
+    <string name="PUMOde">PUSH/Play Mode</string>
+    <string name="PUMOde1">Push priority</string>
+    <string name="PUMOde2">Fixed for push</string>
+    <string name="PUMOde3">Fixed for UHost</string>
+
+    <string name="ComMOde">Connection Mode</string>
+    <string name="ComMOde1">Bluetooth</string>
+    <string name="ComMOde2">Serial</string>
+    <string name="ComMOde3">USB</string>
+    <string name="setpreposition">Front</string>
+    <string name="setpostposition">Rear</string>
+    <string name="setcenter">Center</string>
+    <string name="setSub">Subwoofer</string>
+    <string name="setrearout">Surround</string>
+    <string name="out_link">OUT</string>
+    <string name="output_input_type">channel type</string>
+    <string name="Input_type_23">L-Subwoofer</string>
+    <string name="Input_type_24">R-Subwoofer</string>
+    <string name="Input_type_25">Subwoofer</string>
+    <string name="Input_type_26">RL-Midrange</string>
+    <string name="Input_type_27">RR-Midrange</string>
+    <string name="Input_type_28">L-SUR</string>
+    <string name="Input_type_29">R-SUR</string>
+    <string name="RR_center">Rear Center</string>
+    <string name="SyncDSPMSg">DSP Data synchronization completed！</string>
+    <string name="Factory_setting">Factory setting </string>
+    <string name="Factory_setting_bool">Whether to restore factory </string>
+    <string name="SetOut_Type">Set output type</string>
+
+
+    <string name="newworkopen">Your network is not open</string>
+    <string name="setTing">Open</string>
+    <string name="newworkgpsss">Failed to get targeting permission. Please go to Settings to open the location service</string>
+    <string name="nowyouaddress">Getting location info...</string>
+    <string name="nowyouaddressReplay">Network poor access to location failed, click on the screen to retrieve</string>
+    <string name="toInfo">Getting location information...</string>
+    <string name="nochinsa">The current region does not belong to mainland China, the machine will not activate</string>
+    <string name="nochinanow">The system detects that you are not using it in an authorized area</string>
+
+    <string name="musicerror">There is an error in the music file you currently selected, and it will automatically jump to the playable music file for you</string>
+
+    <string name="uhostplayCMsg">Please change to Uhost play</string>
+
+
+    <string name="Menu_infomation">information</string>
+    <string name="infomation_text">==================================================================
+Software license
+==================================================================
+Disclaimer
+TO THE EXTENT PERMITTED BY APPLICABLE LAW, AND AS PROVIDED IN THE GPL AND LGPL, PIONEER AND ITS LICENSORS PROVIDE AND YOU ACCEPT THE FIRMWARE "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. YOU ACCEPT THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE FIRMWARE.
+
+UNLESS REQUIRED BY APPLICABLE LAW, AND AS PROVIDED IN THE GPL AND LGPL, IN NO EVENT WILL PIONEER OR ITS LICENSORS BE LIABLE TO YOU OR ANY THIRD PARTIES FOR DAMAGES OF ANY KIND ARISING OUT OF YOUR USE OR INABILITY TO USE THE FIRMWARE, INCLUDING WITHOUT LIMITATION ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, PUNITIVE OR EXEMPLARY DAMAGES, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+Software license Notice
+The licenses for the open source software used on this product are shown below.
+For accuracy purposes, here we have included the original texts.
+
+The original text is in English.
+Other languages are provided for informational purposes only.
+There is no legal value or effect.
+
+Text in other languages is below the original text.
+==================================================================
+Fresco 1.7.1
+Copyright (c) Facebook, Inc. and its affiliates.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+
+okhttp 2.7.5 Copyright 2019 Square, Inc.
+GSON 2.2.4 Copyright 2008 Google Inc.
+
+Apache License
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/2020_CHS_Temp/XF/XF-Group/aidefu/XF-DAP460/app/src/main/res/layout/chs_channel_sel.xml" value="0.1875" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/drawable/chs_btn_cbm_press.xml" value="0.2625" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/drawable/chs_btn_center_normal.xml" value="0.2625" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/drawable/chs_btn_eq_set_normal.xml" value="0.36770833333333336" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/drawable/chs_btn_eq_set_press.xml" value="0.36770833333333336" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/drawable/chs_btn_mute_normal.xml" value="0.21145833333333333" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/drawable/chs_btn_mute_press.xml" value="0.36770833333333336" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/drawable/chs_btn_oppsition_normal.xml" value="0.30833333333333335" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/drawable/chs_btn_oppsition_press.xml" value="0.36770833333333336" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/drawable/chs_btn_s_inc_selector.xml" value="0.2515625" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/drawable/chs_btn_s_sub_selector.xml" value="0.2515625" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/drawable/chs_btn_weight_title_normal.xml" value="0.30833333333333335" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/drawable/chs_eq_seekbar_normal.xml" value="0.30833333333333335" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/drawable/chs_layoutc_normal.xml" value="0.30833333333333335" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/drawable/chs_layoutc_press.xml" value="0.30833333333333335" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/drawable/chs_output_link_reset_color_normal.xml" value="0.30833333333333335" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/drawable/chs_output_xover_reset_color_normal.xml" value="0.36770833333333336" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/drawable/chs_speaker_center_down_selector.xml" value="0.275" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/drawable/chs_speaker_center_up_selector.xml" value="0.275" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/drawable/chs_speaker_left_selector.xml" value="0.275" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/drawable/chs_speaker_right_selector.xml" value="0.275" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/drawable/chs_user_b_normal.xml" value="0.36770833333333336" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/drawable/chs_user_b_press.xml" value="0.36770833333333336" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/drawable/chs_user_group_name_bg_color.xml" value="0.30833333333333335" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/drawable/ly_output_filter_bg.xml" value="0.36770833333333336" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/drawable/mcu_select_bg.xml" value="0.290625" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/layout/back_title_item.xml" value="0.2916666666666667" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/layout/check_text_item.xml" value="0.2916666666666667" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/layout/chs_line.xml" value="0.2916666666666667" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/layout/chs_main_inputsource.xml" value="0.2916666666666667" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/layout/chs_model.xml" value="0.23541666666666666" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/layout/dialogfragment/layout/chs_dialog_spk.xml" value="0.27447916666666666" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/layout/fragment/layout/chs_eq_scroll_page.xml" value="0.2921875" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/layout/fragment/layout/chs_fragment_delay_auto.xml" value="0.24635416666666668" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/layout/fragment/layout/chs_fragment_delay_frs_draw.xml" value="0.24635416666666668" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/layout/fragment/layout/chs_fragment_eq.xml" value="0.3515625" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/layout/fragment/layout/chs_fragment_home.xml" value="0.22" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/layout/fragment/layout/chs_fragment_home_simple.xml" value="0.25" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/layout/fragment/layout/chs_fragment_mixer.xml" value="0.3515625" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/layout/fragment/layout/chs_fragment_output_xover.xml" value="0.3515625" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/layout/main/layout/chs_activity_main.xml" value="0.15" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/layout/main/layout/chs_welcome.xml" value="0.27447916666666666" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/layout/main/layout/layout_select_two.xml" value="0.18" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/layout/main/layout/mcu_type_item.xml" value="0.27447916666666666" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/layout/viewitem/layout/chs_viewitem_eqitem.xml" value="0.2921875" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/layout/viewitem/layout/chs_viewitem_mixeritem.xml" value="0.2921875" />
+        <entry key="..\:/2022_CHS_Temp/XF/XF-DAP-Group/XF-DAP/app/src/main/res/layout/viewitem/layout/chs_viewitem_xoveritem.xml" value="0.3515625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

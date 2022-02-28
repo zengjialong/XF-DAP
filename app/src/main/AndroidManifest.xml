@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.chs.mt.xf_dap">
+    <!-- 通过GPS得到精确位置 -->
+    <!-- 通过网络得到粗略位置 -->
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        android:maxSdkVersion="22" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- 访问网络，某些位置信息需要从网络服务器获取 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 访问WiFi状态，需要WiFi信息用于网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 修改WiFi状态，发起WiFi扫描, 需要WiFi信息用于网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 访问网络状态, 检测网络的可用性，需要网络运营商相关信息用于网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 访问网络的变化, 需要某些信息用于网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <!-- 访问手机当前状态, 需要某些信息用于网络定位 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"
+        tools:ignore="MockLocation,ProtectedPermissions" />
+    <!--<uses-permission android:name="android.permission.WRITE_SETTINGS" />-->
+    <!--<uses-permission android:name="android.permission.INTERNET" />-->
+    <!--<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />&lt;!&ndash;&lt;!&ndash;允许程序访问有关GSM网络信息&ndash;&gt;&ndash;&gt;-->
+
+    <!--<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />-->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        tools:ignore="ProtectedPermissions" /><!-- 在SDCard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- 蓝牙分享所需的权限 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" /><!--允许程序修改全局音频设置-->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /><!--允许一个程序打开窗口使用 TYPE_SYSTEM_ALERT，显示在其他所有程序的顶层-->
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" /><!--允许程序禁用键盘锁(Allows applications to disable the keyguard )-->
+
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" /><!--允许一个程序广播常用intents-->
+    <!--<uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />-->
+    <!--<uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />-->
+    <uses-permission android:name="android.permission.VIBRATE" /><!--允许访问振动设备-->
+    <!--Settings-->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" /><!--允许程序读取或写入系统设置-->
+
+    <!--<uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />-->
+    <!-- Required  一些系统要求的权限，如访问网络等-->
+    <!--<uses-permission android:name="com.chs.mt.dsp_play.permission.JPUSH_MESSAGE" />-->
+    <!--<uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />-->
+
+    <!--<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />-->
+    <!--<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />-->
+    <!--<uses-permission android:name="android.permission.WRITE_SETTINGS" />-->
+    <!--<uses-permission android:name="android.permission.VIBRATE" />-->
+    <!--<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />&lt;!&ndash; 允许挂载和反挂载文件系统可移动存储&ndash;&gt;-->
+    <!--<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />-->
+    <!--<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />-->
+
+    <!-- Optional for location -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> <!-- 用于开启 debug 版本的应用在6.0 系统上 层叠窗口权限 -->
+    <!--<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />-->
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" /><!--允许应用程序访问额外的位置提供命令-->
+
+    <application
+        android:allowBackup="false"
+        android:largeHeap="true"
+        android:icon="@drawable/newchs_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        tools:replace="android:icon"
+        android:name="com.chs.mt.xf_dap.application.CrashApp"
+        >
+        <meta-data android:name="TencentMapSDK" android:value="GTBBZ-TR3K6-IG2SN-MY64G-DV27S-TZBDK" />
+        <!--<meta-data-->
+            <!--android:name="com.amap.api.v2.apikey"-->
+            <!--android:value="7ad386e5a13b7cf6ac4a60d953700e61" />-->
+        <!--<service-->
+            <!--android:name="com.amap.api.lo登报为止cation.APSService">-->
+        <!--</service>-->
+
+
+
+        <!-- 这个Activity是应用程序启动时第一个要运行的Activity(欢迎界面) -->
+        <activity
+            android:name="com.chs.mt.xf_dap.main.WelcomeActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:exported="true">
+            <!-- 上面这行代码作用是消除标题栏 -->
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 网络用Activity -->
+        <!-- BLE -->
+
+        <!-- 文件管理Activity -->
+        <activity android:name="com.chs.mt.xf_dap.filemanger.BaseActivity" />
+
+
+        <service
+            android:name="com.chs.mt.xf_dap.service.ServiceOfCom"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name="com.chs.mt.xf_dap.main.Output_or_InputSpkTypeActivity"
+            android:theme="@android:style/Theme.Dialog"
+            />
+
+        <activity android:name="com.chs.mt.xf_dap.main.MainTURTActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan"
+            android:launchMode="standard"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name="com.chs.mt.xf_dap.bluetooth.spp_ble.DeviceListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/select_device"
+            android:windowSoftInputMode="stateHidden|adjustPan"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name="com.chs.mt.xf_dap.main.EQ_GenterActivity"
+            android:screenOrientation="landscape"
+            />
+        <activity android:name="com.chs.mt.xf_dap.main.Select_McuActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name="com.chs.mt.xf_dap.main.Select_Mcu_twoActivity"
+            android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name="com.chs.mt.xf_dap.MusicBox.MusicActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.chs.mt.xf_dap.main.BaseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.chs.mt.xf_dap.main.MainInputSourceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.chs.mt.xf_dap.main.ModelChangeActivity"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+
+</manifest>

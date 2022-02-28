@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mhsb_seekbar="http://schemas.android.com/apk/res-auto"
+	xmlns:KNOB="http://schemas.android.com/apk/res-auto"
+	android:id="@+id/id_llyout_seekbar_dialog_eq_page"
+	android:layout_width="300dp"
+	android:layout_height="wrap_content"
+	android:background="@drawable/chs_layoutc_filter_bg"
+	android:layout_gravity="center"
+	android:orientation="vertical">
+
+
+	<RelativeLayout
+		android:layout_width="400dp"
+		android:layout_height="150dp"
+		android:orientation="vertical">
+
+		<Button
+			android:id="@+id/id_tv_eq_num"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:layout_centerHorizontal="true"
+			android:text="EQ0"
+			android:textColor="@color/color_dialogText"
+			android:textAllCaps="false"
+			android:textSize="20sp"
+			android:background="@null"
+			/>
+
+		<Button
+			android:id="@+id/id_setdelay_dialog_button"
+			android:layout_width="30dp"
+			android:layout_height="30dp"
+			android:layout_gravity="center"
+			android:layout_marginTop="5dp"
+			android:layout_marginRight="5dp"
+			android:layout_alignParentRight="true"
+			android:background="@drawable/chs_dialog_exit"
+			android:textAllCaps="false"
+			android:textSize="13sp"
+			android:gravity="center"/>
+
+		<TextView
+			android:id="@+id/id_text"
+			android:layout_width="100dp"
+			android:layout_height="40dp"
+			android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/id_setdelay_dialog_button"
+			android:text="20Hz"
+			android:textColor="@color/color_dialogText"
+			android:textAllCaps="false"
+			android:textSize="13sp"
+			>
+		</TextView>
+
+		<com.chs.mt.xf_dap.tools.MHS_SeekBar
+			android:id="@+id/id_mcl_seekbar_valume"
+			android:layout_width="250dp"
+			android:layout_height="50dp"
+			android:thumb="@drawable/chs_thumb_normal"
+            android:layout_centerInParent="true"
+			mhsb_seekbar:mhs_progress_max="66"
+			mhsb_seekbar:mhs_progress_width="2dp"
+			mhsb_seekbar:mhs_progress_background_color="@color/mcl_seekbar_pbg_color"
+			mhsb_seekbar:mhs_progress_color="@color/mcl_seekbar_progress_color"
+			/>
+
+		<LinearLayout
+			android:id="@+id/id_llyout_setdelay_dialog_incsub"
+			android:layout_width="wrap_content"
+			android:layout_height="50dp"
+			android:layout_alignParentBottom="true"
+			android:layout_marginBottom="5dp"
+			android:layout_centerHorizontal="true"
+			android:orientation="horizontal">
+			<com.chs.mt.xf_dap.tools.LongCickButton
+				android:id="@+id/id_b_setdelay_dialog_sub"
+				android:layout_width="35dp"
+				android:layout_height="35dp"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:textAllCaps="false"
+				android:background="@drawable/chs_btn_s_sub_selector"
+				android:scaleType="fitCenter" />
+			<TextView
+				android:layout_width="100dp"
+				android:layout_height="40dp"
+				>
+			</TextView>
+			<com.chs.mt.xf_dap.tools.LongCickButton
+				android:id="@+id/id_b_setdelay_dialog_inc"
+				android:layout_width="35dp"
+				android:layout_height="35dp"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:textAllCaps="false"
+				android:layout_marginLeft="35dp"
+				android:background="@drawable/chs_btn_s_inc_selector"
+				android:scaleType="fitCenter" />
+		</LinearLayout>
+	</RelativeLayout>
+
+</RelativeLayout>

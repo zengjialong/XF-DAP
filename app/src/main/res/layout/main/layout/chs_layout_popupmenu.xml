@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   >
+
+	<RelativeLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:layout_marginRight="10dp"
+		>
+
+		<LinearLayout
+			android:id="@+id/main_dialog_layout"
+			android:layout_width="130dp"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentTop="true"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:orientation="vertical"
+			android:background="@drawable/chs_layoutc_menu" >
+
+			<LinearLayout
+				android:id="@+id/ly_item7"
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/menu_item_height"
+				android:layout_gravity="center_vertical"
+				android:orientation="horizontal"
+				android:visibility="gone"
+				>
+
+				<ImageView
+					android:id="@+id/imageView7"
+					android:layout_width="@dimen/menu_item_img_size"
+					android:layout_height="@dimen/menu_item_img_size"
+					android:layout_gravity="center_vertical"
+					android:layout_marginLeft="8dp"
+					android:src="@drawable/chs_menu_factory" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:maxLines="1"
+					android:text="@string/Factory_setting"
+					android:textColor="#ffffffff"
+					android:textSize="12sp" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/ly_item1"
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/menu_item_height"
+				android:layout_gravity="center_vertical"
+				android:visibility="gone"
+				android:orientation="horizontal"
+
+				>
+
+				<ImageView
+					android:id="@+id/imageView1"
+					android:layout_width="@dimen/menu_item_img_size"
+					android:layout_height="@dimen/menu_item_img_size"
+					android:layout_gravity="center_vertical"
+					android:layout_marginLeft="8dp"
+					android:src="@drawable/chs_menu_share" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:maxLines="1"
+					android:text="@string/Menu_Share"
+					android:textColor="#ffffffff"
+					android:textSize="12sp" />
+			</LinearLayout>
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="1dip"
+				android:layout_marginRight="5dp"
+				android:layout_marginLeft="5dp"
+				android:visibility="gone"
+				android:background="#eeeeee" />
+
+			<LinearLayout
+				android:id="@+id/ly_item2"
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/menu_item_height"
+				android:layout_gravity="center_vertical"
+				android:orientation="horizontal"
+				android:visibility="gone"
+				>
+
+				<ImageView
+					android:id="@+id/imageVie2"
+					android:layout_width="@dimen/menu_item_img_size"
+					android:layout_height="@dimen/menu_item_img_size"
+					android:layout_gravity="center_vertical"
+					android:layout_marginLeft="8dp"
+					android:src="@drawable/chs_menu_save" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:maxLines="1"
+					android:text="@string/Menu_Save"
+					android:textColor="#ffffffff"
+					android:textSize="12sp" />
+			</LinearLayout>
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="1dip"
+				android:layout_marginRight="5dp"
+				android:layout_marginLeft="5dp"
+				android:visibility="gone"
+				android:background="#eeeeee" />
+			<LinearLayout
+				android:id="@+id/ly_item3"
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/menu_item_height"
+				android:layout_gravity="center_vertical"
+				android:orientation="horizontal"
+				>
+
+				<ImageView
+					android:id="@+id/imageView2"
+					android:layout_width="@dimen/menu_item_img_size"
+					android:layout_height="@dimen/menu_item_img_size"
+					android:layout_gravity="center_vertical"
+					android:layout_marginLeft="8dp"
+					android:src="@drawable/chs_menu_audio_source" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:layout_gravity="center"
+					android:gravity="center"
+					android:padding="8dp"
+					android:maxLines="1"
+					android:text="@string/boot_default_source"
+					android:singleLine="true"
+					android:textColor="#ffffffff"
+					android:textSize="12sp" />
+			</LinearLayout>
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="1dip"
+				android:layout_marginRight="5dp"
+				android:layout_marginLeft="5dp"
+				android:visibility="gone"
+				android:background="#eeeeee" />
+			<LinearLayout
+				android:id="@+id/ly_item6"
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/menu_item_height"
+				android:layout_gravity="center_vertical"
+				android:orientation="horizontal"
+				>
+
+				<ImageView
+					android:id="@+id/imageView6"
+					android:layout_width="@dimen/menu_item_img_size"
+					android:layout_height="@dimen/menu_item_img_size"
+					android:layout_gravity="center_vertical"
+					android:layout_marginLeft="8dp"
+					android:src="@drawable/chs_menu_himode" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:padding="8dp"
+					android:maxLines="1"
+					android:gravity="center"
+					android:text="@string/hardware_manual"
+					android:textColor="#ffffffff"
+					android:textSize="12sp" />
+			</LinearLayout>
+			<View
+				android:id="@+id/fifity_line"
+				android:layout_width="match_parent"
+				android:layout_height="1dip"
+				android:layout_marginRight="5dp"
+				android:layout_marginLeft="5dp"
+				android:visibility="gone"
+				android:background="#eeeeee" />
+
+			<LinearLayout
+				android:id="@+id/ly_item8"
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/menu_item_height"
+				android:layout_gravity="center_vertical"
+				android:orientation="horizontal"
+				>
+				<ImageView
+					android:id="@+id/imageView8"
+					android:layout_width="@dimen/menu_item_img_size"
+					android:layout_height="@dimen/menu_item_img_size"
+					android:layout_gravity="center_vertical"
+					android:layout_marginLeft="8dp"
+					android:src="@drawable/chs_menu_infomation" />
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:padding="8dp"
+					android:maxLines="1"
+					android:text="@string/Menu_infomation"
+					android:gravity="center"
+					android:textColor="#ffffffff"
+					android:textSize="12sp" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:id="@+id/ly_item4"
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/menu_item_height"
+				android:layout_gravity="center_vertical"
+				android:orientation="horizontal"
+				>
+				<ImageView
+					android:id="@+id/imageView3"
+					android:layout_width="@dimen/menu_item_img_size"
+					android:layout_height="@dimen/menu_item_img_size"
+					android:layout_gravity="center_vertical"
+					android:layout_marginLeft="8dp"
+					android:src="@drawable/chs_menu_about" />
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:padding="8dp"
+					android:maxLines="1"
+					android:gravity="center"
+					android:text="@string/Menu_About"
+					android:textColor="#ffffffff"
+					android:textSize="12sp" />
+			</LinearLayout>
+
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="1dip"
+				android:layout_marginRight="5dp"
+				android:layout_marginLeft="5dp"
+				android:visibility="gone"
+				android:background="#eeeeee" />
+
+
+
+			<LinearLayout
+				android:id="@+id/ly_item5"
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/menu_item_height"
+				android:layout_gravity="center_vertical"
+				android:orientation="horizontal"
+				>
+
+				<ImageView
+					android:id="@+id/imageView4"
+					android:layout_width="@dimen/menu_item_img_size"
+					android:layout_height="@dimen/menu_item_img_size"
+					android:layout_gravity="center_vertical"
+					android:layout_marginLeft="8dp"
+					android:src="@drawable/chs_menu_exit" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:padding="8dp"
+					android:maxLines="1"
+					android:gravity="center"
+					android:text="@string/Menu_Exit"
+					android:textColor="#ffffffff"
+					android:textSize="12sp" />
+			</LinearLayout>
+		</LinearLayout>
+	</RelativeLayout>
+</RelativeLayout>

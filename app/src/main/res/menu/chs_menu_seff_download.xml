@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/open_seff_file"
+        android:icon="@drawable/chs_file_open"
+        android:title="@string/OpenSeffFile">
+    </item>
+    <item
+        android:id="@+id/exit"
+        android:visible="false"
+        android:icon="@drawable/chs_exit"
+        android:title="@string/exit" />
+
+</menu>

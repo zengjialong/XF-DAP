@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/id_llyout_about_dialog"
+	android:layout_width="380dp"
+	android:layout_height="400dp"
+	android:background="@drawable/chs_layoutc_filter_bg"
+	android:layout_gravity="center"
+	android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_40"
+       >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/space_15"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:text="@string/Menu_infomation"
+            />
+        <ImageView
+            android:id="@+id/exit"
+            android:layout_width="@dimen/space_30"
+            android:layout_height="@dimen/space_30"
+            android:src="@drawable/chs_dialog_exit"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/space_10"
+            />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        />
+
+	<ScrollView
+        android:layout_width="match_parent"
+		android:layout_height="match_parent"
+        android:layout_gravity="center"
+		android:layout_marginBottom="@dimen/space_2"
+		android:scrollbars="none"
+		android:layout_marginLeft="@dimen/space_10"
+		android:layout_marginRight="@dimen/space_10"
+      >
+		<TextView
+			android:id="@+id/id_txt_num"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:textSize="@dimen/space_15"
+			android:textColor="@color/white"
+			android:textAllCaps="false"
+
+			/>
+
+	</ScrollView>
+</LinearLayout>

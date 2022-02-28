@@ -1,0 +1,98 @@
+apply plugin: 'com.android.application'
+apply plugin: 'vip.ruoyun.screen'
+
+android {
+    compileSdkVersion 32
+    buildToolsVersion '28.0.2'
+//    buildToolsVersion "25.0.2"
+    //useLibrary 'org.apache.http.legacy'
+    defaultConfig {
+        minSdkVersion 20
+        targetSdkVersion 32
+        versionCode 35
+        versionName "1.05"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            debuggable false
+            buildConfigField ("boolean", "MY_DEBUG", "false")
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+            buildConfigField ("boolean", "MY_DEBUG", "true")
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+    defaultConfig {
+        multiDexEnabled true
+//        ndk {
+//            //设置支持的SO库架构（开发者可以根据需要,选择一个或多个平台的so）
+//            abiFilters "armeabi", "armeabi-v7a", "arm64-v8a", "x86","arm64-v8a","x86_64"
+//        }
+    }
+
+    sourceSets {
+        main {
+            res.srcDirs =
+                    [
+                            'src/main/res/layout/main',
+                            'src/main/res/layout/dialogfragment',
+                            'src/main/res/layout/fragment',
+                            'src/main/res/layout/viewitem',
+                            'src/main/res/layout',
+                            'src/main/res'
+                    ]
+
+        }
+
+    }
+
+}
+ext {
+    supportVersion = "25.2.0"
+}
+repositories {
+    flatDir { dirs 'libs' }
+    maven {
+        url "https://jitpack.io"
+    }
+}
+
+screen {
+    smallestWidths 320, 360, 384, 392, 400, 410, 411,423, 432, 480,533,592,600,640,662,720,768,800,811,820,960,1024,1280,1365 //生成的目标屏幕宽度的适配文件
+    designSmallestWidth 375 //苹果设计稿750 × 1334   屏幕宽度为 375
+    decimalFormat "#.#" //设置保留的小数 ( #.## 保留2位) ( #.# 保留1位)
+    log false //是否打印日志
+    auto false //是否每次 build 项目的时候自动生成 values-sw[]dp 文件
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //noinspection GradleCompatible,GradleCompatible,GradleCompatible,GradleCompatible
+    implementation 'com.android.support:percent:22.2.0'
+    implementation files('libs/nineoldandroids-2.4.0.jar')
+    implementation files('libs/bottomView.jar')
+
+    implementation 'com.tencent.map:tencent-map-vector-sdk:latest.release'
+    //    compile "com.android.support:support-v4:${supportVersion}"
+    implementation 'com.facebook.fresco:fresco:1.7.1'
+    implementation 'com.squareup.okhttp:okhttp:2.7.5'
+    implementation 'com.google.code.gson:gson:2.2.4'
+    //    compile 'com.android.support:support-v4:25.3.1'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:25.3.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+//    testCompile 'junit:junit:4.12'
+    implementation 'org.jetbrains:annotations-java5:15.0'
+    implementation files('libs/TencentLocationSdk_v7.1.5_rfaa15929_20190301_144850.jar')
+
+
+}

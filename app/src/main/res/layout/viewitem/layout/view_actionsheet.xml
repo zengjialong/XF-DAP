@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/space_120"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center"
+    android:layout_gravity="center"
+    >
+    <com.chs.mt.xf_dap.tools.MScrollView
+        android:id="@+id/id_weight_srollview"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_250"
+        android:fillViewport="true"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:fadingEdge="none"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:fillViewport="true"
+        android:gravity="center"
+       >
+    <TextView
+        android:id="@+id/tv_take_photo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="CH1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:background="@drawable/button_style"
+        android:textColor="@android:color/background_dark"/>
+
+
+
+    <TextView
+        android:id="@+id/tv_take_pic1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="CH2"
+        android:gravity="center"
+        android:background="@drawable/button_style"
+        android:textSize="16sp"
+        android:textColor="@android:color/background_dark"/>
+
+    <TextView
+        android:id="@+id/tv_take_pic2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="CH3"
+        android:gravity="center"
+        android:background="@drawable/button_style"
+        android:textSize="16sp"
+        android:textColor="@android:color/background_dark"/>
+
+
+    <TextView
+        android:id="@+id/tv_take_pic3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="CH4"
+        android:gravity="center"
+        android:background="@drawable/button_style"
+        android:textSize="16sp"
+        android:textColor="@android:color/background_dark"/>
+
+    <TextView
+        android:id="@+id/tv_take_pic4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="CH5"
+        android:gravity="center"
+        android:background="@drawable/button_style"
+        android:textSize="16sp"
+        android:textColor="@android:color/background_dark"/>
+
+
+    <TextView
+        android:id="@+id/tv_take_pic5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="CH6"
+        android:gravity="center"
+        android:background="@drawable/button_style"
+        android:textSize="16sp"
+        android:textColor="@android:color/background_dark"/>
+
+
+    <TextView
+        android:id="@+id/tv_take_pic6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="CH7"
+        android:gravity="center"
+        android:background="@drawable/button_style"
+        android:textSize="16sp"
+        android:textColor="@android:color/background_dark"/>
+
+
+    <TextView
+        android:id="@+id/tv_take_pic7"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="CH8"
+        android:gravity="center"
+        android:background="@drawable/button_style"
+        android:textSize="16sp"
+        android:textColor="@android:color/background_dark"/>
+
+
+    <TextView
+        android:id="@+id/tv_take_pic8"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="CH9"
+        android:gravity="center"
+        android:background="@drawable/button_style"
+        android:textSize="16sp"
+        android:textColor="@android:color/background_dark"/>
+
+
+    <TextView
+        android:id="@+id/tv_take_pic9"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="CH10"
+        android:gravity="center"
+        android:background="@drawable/button_style"
+        android:textSize="16sp"
+        android:textColor="@android:color/background_dark"/>
+    <TextView
+        android:id="@+id/tv_take_pic10"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="CH11"
+        android:gravity="center"
+        android:background="@drawable/button_style"
+        android:textSize="16sp"
+        android:textColor="@android:color/background_dark"/>
+
+
+    <TextView
+        android:id="@+id/tv_take_pic11"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="CH12"
+        android:gravity="center"
+        android:background="@drawable/button_style"
+        android:textSize="16sp"
+        android:textColor="@android:color/background_dark"/>
+
+
+
+    <TextView
+        android:id="@+id/tv_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/cancel"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@android:color/background_dark"/>
+    </LinearLayout>
+    </com.chs.mt.xf_dap.tools.MScrollView>
+</LinearLayout>

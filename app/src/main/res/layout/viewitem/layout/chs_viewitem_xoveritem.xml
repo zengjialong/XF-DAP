@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:KNOB="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center" 
+	android:gravity="center" 
+    android:background="@null"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+
+        <!--  高低通 -->
+        <LinearLayout
+            android:layout_weight="2.0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_weight="1.0"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+                <Button
+                    android:id="@+id/id_b_up"
+                    android:layout_width="@dimen/up_button_width"
+                    android:layout_height="@dimen/filter_button_height"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/chs_btn_s_up_selector"
+                    android:maxLines="1"
+                    android:textColor="@color/xover_channel_text_color"
+
+                    android:textSize="13sp"
+                    android:textAllCaps="false"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1.0"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+
+                <Button
+                    android:id="@+id/id_b_hp_freq"
+                    android:layout_width="@dimen/filter_button_width"
+                    android:layout_height="@dimen/filter_button_height"
+                    android:layout_gravity="center"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="滤波器"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <!--  低通 -->
+            <LinearLayout
+                android:layout_weight="1.0"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+                <Button
+                    android:id="@+id/id_b_down"
+                    android:layout_width="@dimen/up_button_width"
+                    android:layout_height="@dimen/filter_button_height"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/chs_btn_s_down_selector"
+                    android:maxLines="1"
+                    android:textColor="@color/xover_channel_text_color"
+                    android:textSize="13sp"
+                    android:textAllCaps="false"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

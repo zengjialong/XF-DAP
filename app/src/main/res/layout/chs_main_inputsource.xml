@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_color"
+    android:id="@+id/ly_inputsource"
+    android:orientation="vertical">
+    <com.chs.mt.xf_dap.viewItem.Back_Title_ItemView
+        android:id="@+id/id_title_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

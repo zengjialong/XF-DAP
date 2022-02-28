@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:mhsb_seekbar="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!-- BG -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/id_ly_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#FFffffff" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FFfdfdfd" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FFf7f7f7" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FFefefef" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FFe9e9e9" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/id_ly"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:background="@color/music_bg"></RelativeLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <!--gd_das460_b3s0_b3splay.util.img.RoundImageView-->
+        <!--android:id="@+id/id_b_gotolrc"-->
+        <!--android:layout_width="@dimen/Music_Control_Bar_ImgSize"-->
+        <!--android:layout_height="@dimen/Music_Control_Bar_ImgSize"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:clickable="false"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_marginLeft="0dp"-->
+        <!--/>-->
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/my_image"
+            android:layout_width="@dimen/Music_Control_Bar_ImgSize"
+            android:layout_height="@dimen/Music_Control_Bar_ImgSize"
+            android:layout_gravity="center"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/chs_music_img_defaut"
+            android:visibility="gone"
+            fresco:actualImageScaleType="centerCrop"
+            fresco:failureImageScaleType="centerInside"
+            fresco:progressBarImageScaleType="centerInside" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/id_music_info_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.2"
+                        android:gravity="center"
+                        android:maxLines="1"
+
+                        android:scrollbars="horizontal"
+                        android:text="@string/music_info_artist"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/id_music_info_artist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:scrollbars="horizontal"
+                        android:text="@string/music_info_title"
+                        android:textColor="#7E7E7E"
+                        android:textSize="10sp" />
+                </LinearLayout>
+                <Button
+                    android:id="@+id/id_music_type"
+                    android:layout_width="@dimen/space_30"
+                    android:layout_height="@dimen/space_30"
+
+                    android:text="MP3"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/space_10"
+                    android:background="@drawable/btn_music_bg"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+            <!-- 进度 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/id_tx_time"
+                    android:layout_width="45dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="00.00"
+                    android:textColor="@color/white" />
+
+                <com.chs.mt.xf_dap.tools.MHS_SeekBarProgress
+                    android:id="@+id/id_sb_play"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+
+                    android:thumb="@drawable/chs_seekbar_thumb"
+                    mhsb_seekbar:mhs_progress_background_color="@color/mcl_seekbar_pbg_color"
+                    mhsb_seekbar:mhs_progress_color="@color/mcl_seekbar_progress_color"
+                    mhsb_seekbar:mhs_progress_max="66"
+                    mhsb_seekbar:mhs_progress_width="2dp" />
+
+                <TextView
+                    android:id="@+id/id_tx_time_all"
+                    android:layout_width="45dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="3.40"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+            <!-- 歌名控制 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/id_b_music_play_mode"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="0dp"
+                    android:textAllCaps="false"
+                    android:background="@drawable/chs_music_bar_player_mode_ca_press"
+                    android:scaleType="fitXY"
+                    android:text=""
+                    android:textColor="@color/weight_b_Polar_P_text_color"
+                    android:textSize="@dimen/output_p_textsize"/>
+
+                <!-- 前一首操作 -->
+                <Button
+                    android:id="@+id/id_b_music_previous"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginRight="45dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/chs_music_bar_play_last"
+                    android:layout_centerVertical="true"
+                    android:scaleType="fitXY"
+                    android:text=""
+                    android:textAllCaps="false"
+                    android:textColor="@color/weight_b_Polar_P_text_color"
+                    android:textSize="@dimen/output_p_textsize" />
+                <!-- 暂停播放操作 -->
+                <Button
+                    android:id="@+id/id_b_music_play"
+                    android:layout_width="@dimen/space_30"
+                    android:layout_height="@dimen/space_30"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+
+                    android:background="@drawable/chs_music_bar_play_normal"
+                    android:scaleType="fitXY"
+                    android:textAllCaps="false"
+                    android:textColor="@color/weight_b_Polar_P_text_color"
+                    android:textSize="@dimen/output_p_textsize" />
+                <!-- 下一首操作 -->
+                <Button
+                    android:id="@+id/id_b_music_next"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginRight="45dp"
+                    android:background="@drawable/chs_music_bar_play_next"
+                    android:scaleType="fitXY"
+                    android:text=""
+                    android:textAllCaps="false"
+                    android:textColor="@color/weight_b_Polar_P_text_color"
+                    android:textSize="@dimen/output_p_textsize" />
+                <!-- U盘播放，推送歌曲 -->
+                <Button
+                    android:id="@+id/id_b_phoneblue_music"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="0dp"
+                    android:visibility="invisible"
+                    android:background="@color/nullc" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_ly_item"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        />
+
+</RelativeLayout>

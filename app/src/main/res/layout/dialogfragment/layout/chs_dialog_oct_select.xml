@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="350dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    >
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="350dp"
+        android:layout_weight="1"
+        android:background="@drawable/chs_oct_select_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/id_oct_title"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:text="@string/LowPassFilter"
+            android:textAllCaps="false"
+            android:layout_weight="0.1"
+            android:textSize="15dp"
+            android:background="@color/nullc"
+            android:textColor="@color/white" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="@string/Slope"
+            android:textAllCaps="false"
+            android:layout_weight="0.08"
+            android:textColor="@color/white"
+            android:textSize="13dp"
+            android:background="@drawable/button_style"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/id_oct_1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="@string/Frequency"
+            android:textAllCaps="false"
+            android:textColor="@color/oct_select_num"
+            android:textSize="@dimen/space_13"
+            android:layout_gravity="center"
+            android:background="@drawable/button_style"
+            android:layout_weight="0.1"
+            android:gravity="center" />
+        <Button
+            android:id="@+id/id_oct_2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="@string/Frequency"
+            android:textAllCaps="false"
+            android:textColor="@color/oct_select_num"
+            android:textSize="@dimen/space_13"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:background="@drawable/button_style"
+            />
+        <Button
+            android:id="@+id/id_oct_3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="@string/Frequency"
+            android:textAllCaps="false"
+            android:textColor="@color/oct_select_num"
+            android:textSize="@dimen/space_13"
+
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:background="@drawable/button_style" />
+        <Button
+            android:id="@+id/id_oct_4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="@string/Frequency"
+            android:textAllCaps="false"
+            android:textColor="@color/oct_select_num"
+            android:textSize="@dimen/space_13"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:background="@drawable/button_style" />
+
+
+
+
+        <Button
+            android:id="@+id/id_oct_5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="@string/Frequency"
+            android:textAllCaps="false"
+            android:textColor="@color/oct_select_num"
+            android:textSize="@dimen/space_13"
+            android:layout_gravity="center"
+            android:background="@drawable/button_style"
+            android:layout_weight="0.1"
+            android:gravity="center" />
+        <Button
+            android:id="@+id/id_oct_6"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="@string/Frequency"
+            android:textAllCaps="false"
+            android:textColor="@color/oct_select_num"
+            android:textSize="@dimen/space_13"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:background="@drawable/button_style"
+            />
+        <Button
+            android:id="@+id/id_oct_7"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="@string/Frequency"
+            android:textAllCaps="false"
+            android:textColor="@color/oct_select_num"
+            android:textSize="@dimen/space_13"
+
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:background="@drawable/button_style" />
+        <Button
+            android:id="@+id/id_oct_8"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="@string/Frequency"
+            android:textAllCaps="false"
+            android:textColor="@color/oct_select_num"
+            android:textSize="@dimen/space_13"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:background="@drawable/button_style" />
+        <Button
+            android:id="@+id/id_oct_9"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="@string/Frequency"
+            android:textAllCaps="false"
+            android:textColor="@color/oct_select_num"
+            android:textSize="@dimen/space_13"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:background="@drawable/button_style" />
+
+
+
+
+        <Button
+            android:id="@+id/id_oct_exit"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="@string/cancel"
+            android:textAllCaps="false"
+            android:textColor="@color/red"
+            android:textSize="@dimen/space_13"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:background="@color/nullc" />
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

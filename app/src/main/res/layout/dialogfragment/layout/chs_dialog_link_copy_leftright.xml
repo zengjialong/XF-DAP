@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/id_dialog_share_singlemac_file"
+	android:layout_width="250dp"
+	android:layout_height="250dp"
+	android:layout_gravity="center" 
+	android:gravity="center"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_width="250dp"
+		android:layout_height="250dp"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:background="@drawable/chs_oct_select_bg"
+		android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+			android:background="@drawable/button_style"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/id_text_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:text="@string/Opt_Channel_Link"
+				android:textColor="@color/white"
+                android:layout_centerInParent="true"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/id_chs_dialog_exit"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+				android:visibility="gone"
+                android:background="@drawable/chs_dialog_exit"
+                android:textAllCaps="false"
+                android:textSize="15sp"/>
+
+        </RelativeLayout>
+
+		<Button
+			android:id="@+id/id_chs_dialog_btn0"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+			android:background="@drawable/button_style"
+            android:text="@string/LeftToRight"
+            android:textColor="@color/oct_select_num"
+            android:layout_centerInParent="true"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            />
+        <Button
+            android:id="@+id/id_chs_dialog_btn1"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+			android:background="@drawable/button_style"
+            android:text="@string/RightToLeft"
+            android:textColor="@color/oct_select_num"
+            android:layout_centerInParent="true"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            />
+        <Button
+            android:id="@+id/id_chs_dialog_btn2"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+			android:background="@color/nullc"
+            android:text="@string/cancel"
+            android:textColor="@color/red"
+            android:layout_centerInParent="true"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/copy"
+        android:title="@string/copy">
+    </item>
+    <item
+        android:id="@+id/stick"
+        android:title="@string/stick">
+    </item>
+    <item
+        android:id="@+id/del"
+        android:title="@string/del">
+    </item>
+    <item
+        android:id="@+id/mod"
+        android:title="@string/mod"/>
+    <item
+        android:id="@+id/cancel"
+        android:title="@string/cancel">
+    </item>
+
+</menu>

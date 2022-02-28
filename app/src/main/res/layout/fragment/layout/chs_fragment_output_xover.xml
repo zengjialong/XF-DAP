@@ -1,0 +1,607 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mhsb_seekbar="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:wheelview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/output_item_ly_marginSide"
+                android:layout_marginRight="@dimen/output_item_ly_marginSide"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <Button
+                    android:id="@+id/id_btn_outpxut_select"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/space_30"
+                    android:background="@color/output_bg_color"
+                    android:text="@string/Output"
+                    android:textAllCaps="false"
+                    android:textColor="@color/output_channel_txt_color"
+                    android:textSize="@dimen/space_15" />
+                <!--<Spinner-->
+                <!--android:id="@+id/spinner1"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center"-->
+                <!--/>-->
+
+            </LinearLayout>
+            <com.chs.mt.xf_dap.tools.HorizontalSelectedView
+                android:id="@+id/id_output_va_howheelview"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_30"
+                android:visibility="gone"
+                />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_45">
+            <!-- 通道选择-->
+                <com.chs.mt.xf_dap.tools.wheel.WheelView
+                    android:id="@+id/id_output_va_wheelview"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/space_45"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/space_5"
+                    android:background="@color/wheelView_bg"
+                    wheelview:fontColor="@color/white"
+                    wheelview:fontColor_press="@color/text_color_TopBarChannelSel_press"
+                    wheelview:fontSize="@dimen/text_size_TopBarChannelSel" />
+            <View
+                android:layout_width="@dimen/space_45"
+                android:layout_height="3dp"
+                android:layout_gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:background="@color/channelsel_btn_stroke_color_press" />
+            </RelativeLayout>
+            <!-- 通道设置 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/output_item_ly_marginSide"
+                android:layout_marginTop="@dimen/space_5"
+                android:layout_marginRight="@dimen/output_item_ly_marginSide"
+                android:layout_weight="1.3"
+                android:background="@drawable/ly_output_filter_bg"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.25"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="@string/Valume"
+                    android:textAllCaps="false"
+
+                    android:textColor="@color/main_vol_color"
+                    android:textSize="13sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.25"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/id_b_output_val"
+                        android:layout_width="75dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:scaleType="fitCenter"
+                        android:text="60"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/space_18" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <com.chs.mt.xf_dap.tools.LongCickButton
+                        android:id="@+id/id_button_val_sub"
+                        android:layout_width="@dimen/output_item_button_incsub_width"
+                        android:layout_height="@dimen/output_item_button_incsub_width"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/space_20"
+                        android:background="@drawable/chs_btn_s_sub_selector"
+                        android:gravity="center" />
+
+                    <com.chs.mt.xf_dap.tools.MHS_SeekBar
+                        android:id="@+id/id_sb_weight"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.0"
+                        android:thumb="@drawable/chs_seekbar_thumb"
+                        mhsb_seekbar:mhs_progress_background_color="@color/mcl_seekbar_pbg_color"
+                        mhsb_seekbar:mhs_progress_color="@color/mcl_seekbar_progress_color"
+                        mhsb_seekbar:mhs_progress_max="66"
+                        mhsb_seekbar:mhs_progress_width="2dp" />
+
+                    <com.chs.mt.xf_dap.tools.LongCickButton
+                        android:id="@+id/id_button_val_inc"
+                        android:layout_width="@dimen/output_item_button_incsub_width"
+                        android:layout_height="@dimen/output_item_button_incsub_width"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="@dimen/space_20"
+                        android:background="@drawable/chs_btn_s_inc_selector"
+                        android:gravity="center" />
+                </LinearLayout>
+                <!-- 通道相位，通道类型，静音设置 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/OutputPage_Xover_Btn_height"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/id_b_ly_mute"
+                            android:layout_width="@dimen/space_70"
+                            android:layout_height="@dimen/OutputPage_Xover_Btn_height"
+                            android:layout_gravity="center"
+                            android:background="@drawable/chs_user_group_name_bg_color"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/id_b_mute"
+                                android:layout_width="@dimen/OutputPage_Xover_Btn_height"
+                                android:layout_height="@dimen/OutputPage_Xover_Btn_height"
+                                android:layout_gravity="center"
+                                android:background="@drawable/chs_main_mute_normal"
+                                android:clickable="false"
+                                android:gravity="center"
+                                android:maxLines="1"
+                                android:scaleType="fitCenter"
+                                android:textAllCaps="false"
+                                android:textColor="@color/text_color_xovernotset"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/OutputPage_Xover_Btn_height"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/id_b_spktype"
+                            android:layout_width="@dimen/space_70"
+                            android:layout_height="@dimen/OutputPage_Xover_Btn_height"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@drawable/chs_user_group_name_bg_color"
+                            android:gravity="center"
+
+                            android:singleLine="true"
+                            android:scaleType="fitCenter"
+                            android:ellipsize="end"
+                            android:text="@string/FL_Midrange"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/space_12" />
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/OutputPage_Xover_Btn_height"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/id_b_polar"
+                            android:layout_width="@dimen/space_70"
+                            android:layout_height="@dimen/OutputPage_Xover_Btn_height"
+                            android:layout_gravity="center"
+                            android:background="@drawable/chs_user_group_name_bg_color"
+                            android:gravity="center"
+                            android:maxLines="1"
+                            android:scaleType="fitCenter"
+                            android:text="@string/Oct"
+                            android:textAllCaps="false"
+                            android:textColor="@color/text_color_xovernotset"
+                            android:textSize="@dimen/space_12" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1" />
+
+            <!-- XOver选择 -->
+            <LinearLayout
+                android:id="@+id/id_ly_xover"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/output_item_ly_marginSide"
+                android:layout_marginRight="@dimen/output_item_ly_marginSide"
+                android:layout_weight="2"
+                android:gravity="center"
+
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+
+                    android:layout_weight="1"
+                    android:background="@drawable/ly_output_filter_bg"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center"
+                            android:background="@null"
+                            android:gravity="center"
+                            android:maxLines="1"
+                            android:text="@string/HighPass"
+                            android:textAllCaps="false"
+                            android:textColor="@color/xover_hlpass_text_color"
+                            android:textSize="13sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <com.chs.mt.xf_dap.viewItem.V_XoverItem
+                                android:id="@+id/id_freq_1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"></com.chs.mt.xf_dap.viewItem.V_XoverItem>
+
+                        </LinearLayout>
+
+                        <android.support.v4.widget.Space
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <com.chs.mt.xf_dap.viewItem.V_XoverItem
+                                android:id="@+id/id_filter_1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"></com.chs.mt.xf_dap.viewItem.V_XoverItem>
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <com.chs.mt.xf_dap.viewItem.V_XoverItem
+                                android:id="@+id/id_oct_1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"></com.chs.mt.xf_dap.viewItem.V_XoverItem>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <android.support.v4.widget.Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/ly_output_filter_bg"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <!-- 低通 -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/OutputPage_Xover_Btn_height"
+                            android:layout_gravity="center"
+                            android:background="@null"
+                            android:gravity="center"
+                            android:maxLines="1"
+                            android:text="@string/LowPass"
+                            android:textAllCaps="false"
+                            android:textColor="@color/xover_hlpass_text_color"
+                            android:textSize="13sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <com.chs.mt.xf_dap.viewItem.V_XoverItem
+                                android:id="@+id/id_freq_2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"></com.chs.mt.xf_dap.viewItem.V_XoverItem>
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <com.chs.mt.xf_dap.viewItem.V_XoverItem
+                                android:id="@+id/id_filter_2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" />
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <com.chs.mt.xf_dap.viewItem.V_XoverItem
+                                android:id="@+id/id_oct_2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"></com.chs.mt.xf_dap.viewItem.V_XoverItem>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/channelsel_btn_line" />
+
+
+            <!--  重置联调  -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/output_item_ly_marginSide"
+                android:layout_marginRight="@dimen/output_item_ly_marginSide"
+                android:layout_weight="0.5"
+                android:background="@color/nullc"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/id_d_channel_reset_va"
+                        android:layout_width="@dimen/space_80"
+                        android:layout_height="@dimen/OutputPage_Xover_Btn_height"
+                        android:layout_gravity="center"
+                        android:background="@drawable/chs_output_xover_reset_color_normal"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:text="@string/Reset"
+                        android:textAllCaps="false"
+
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/id_b_txt_reset"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone" />
+
+
+                </LinearLayout>
+
+                <android.support.v4.widget.Space
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/OutputPage_Xover_Btn_height"
+                    android:layout_weight="0.5" />
+
+                <LinearLayout
+                    android:id="@+id/id_ly_channel_linkch"
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/id_d_channel_linkch_left"
+                        android:layout_width="wrap_content"
+                        android:layout_height="26dp"
+                        android:layout_gravity="center"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:text=""
+                        android:textAllCaps="false"
+                        android:textColor="@color/output_channel_set_text_color_normal"
+                        android:textSize="11sp" />
+
+                    <Button
+                        android:layout_width="24dp"
+                        android:layout_height="8dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:background="@drawable/chs_linked"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:textAllCaps="false" />
+
+                    <TextView
+                        android:id="@+id/id_d_channel_linkch_right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="26dp"
+                        android:layout_gravity="center"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:text=""
+                        android:textAllCaps="false"
+                        android:textColor="@color/output_channel_set_text_color_normal"
+                        android:textSize="11sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/id_b_link"
+                        android:layout_width="@dimen/space_80"
+                        android:layout_height="@dimen/OutputPage_Xover_Btn_height"
+                        android:layout_gravity="center"
+                        android:background="@drawable/chs_output_xover_reset_color_normal"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:scaleType="fitCenter"
+                        android:text="@string/Link"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/id_b_encryption"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/chs_btn_encryption"
+            android:text="@string/HadEncryption"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color_red"
+            android:textSize="35sp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</FrameLayout>

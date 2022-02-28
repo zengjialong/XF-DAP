@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:background="#00000000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/id_file_ly"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Music_Fileitem_ly_height"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:id="@+id/id_iv_file_head"
+            android:layout_width="@dimen/space_30"
+            android:layout_height="@dimen/space_30"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+			android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/icon_file"
+            />
+		<Button
+			android:id="@+id/id_file_img"
+			android:layout_width="30dp"
+			android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+			android:layout_gravity="center_vertical"
+			android:gravity="center"
+			android:visibility="gone"
+			android:background="@drawable/chs_music_list_player_normal" />
+		<RelativeLayout
+			android:layout_weight="1"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_marginLeft="0dp"
+			android:layout_gravity="center"
+			android:gravity="center"
+			>
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:orientation="horizontal"
+				>
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_gravity="center"
+					android:gravity="center"
+					android:orientation="vertical">
+					<TextView
+						android:layout_weight="1"
+						android:id="@+id/id_file_filename"
+						android:layout_width="match_parent"
+						android:layout_height="0dp"
+						android:layout_gravity="center_vertical"
+						android:gravity="center_vertical"
+						android:text="FileName"
+
+						android:singleLine="true"
+						android:textColor="@color/white"
+						android:textSize="15sp"
+						android:textAllCaps="false"
+						/>
+					<TextView
+						android:layout_weight="0.5"
+						android:id="@+id/id_file_art"
+						android:layout_width="match_parent"
+						android:layout_height="0dp"
+						android:layout_marginBottom="3dp"
+						android:layout_gravity="center_vertical"
+						android:gravity="center_vertical"
+						android:textColor="@color/white"
+						android:text="@string/unknown"
+						android:textSize="12sp"
+						android:textAllCaps="false"
+						/>
+				</LinearLayout>
+				<Button
+					android:id="@+id/id_file_msg"
+					android:layout_width="40dp"
+					android:layout_height="40dp"
+					android:visibility="gone"
+					android:layout_gravity="center_vertical"
+					android:background="@drawable/chs_music_list_msg_normal"
+					android:gravity="center"
+					/>
+			</LinearLayout>
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="1dp"
+				android:background="#181818"
+				android:layout_alignParentBottom="true"
+				/>
+		</RelativeLayout>
+
+
+	</LinearLayout>
+
+</LinearLayout>

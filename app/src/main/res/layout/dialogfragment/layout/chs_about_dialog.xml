@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/id_llyout_about_dialog"
+	android:layout_width="360dp"
+	android:layout_height="300dp"
+	android:background="@drawable/chs_layoutc_filter_bg"
+	android:layout_gravity="center"
+	android:orientation="vertical"> 
+
+	<LinearLayout
+        android:layout_width="320dp"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <TextView
+			android:id="@+id/id_tv_device_mac"
+			android:layout_width="wrap_content"
+			android:layout_height="30dp"
+			android:maxLines="1"
+			android:textColor="@color/text_color_about"
+			android:text="@string/MacDevice" 
+			android:textSize="13sp" />
+	    <TextView
+			android:id="@+id/id_tv_device_version"
+			android:layout_width="wrap_content"
+			android:layout_height="30dp"
+			android:layout_marginTop="10dp"    
+			android:maxLines="1"
+			android:textColor="@color/text_color_about"
+			android:text="@string/device_version" 
+			android:textSize="13sp" />
+		<TextView
+			android:id="@+id/id_tv_soft_version"
+			android:layout_width="wrap_content"
+			android:layout_height="30dp"
+			android:layout_marginTop="10dp"
+			android:maxLines="1"
+			android:textColor="@color/text_color_about"
+			android:textSize="13sp" />
+		<TextView
+			android:id="@+id/id_tv_copyright"
+			android:layout_width="wrap_content"
+			android:layout_height="50dp"	
+			android:layout_marginTop="10dp"
+			android:maxLines="2"
+			android:textColor="@color/text_color_about"
+			android:textSize="13sp" />
+	</LinearLayout>	
+	<Button
+		android:id="@+id/id_b_about_ok"
+		android:layout_width="80dp" 
+		android:layout_height="35dp" 
+		android:layout_marginTop="20dp"
+		android:layout_gravity="center"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="@string/Sure"
+        android:textSize="12sp"
+		android:textColor="@color/white"
+		android:background="@drawable/chs_layoutc_filter_bg"
+		/> 	
+		
+
+	<TextView        
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+       />
+</LinearLayout>
